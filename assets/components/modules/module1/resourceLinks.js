@@ -146,7 +146,7 @@ function autoInitializeResourceLinks() {
         title: "Află mai multe",
         links: [
           {
-            text: "Funcționalități IA în Microsoft 365",
+            text: "Funcții IA în Microsoft 365",
             url: "https://www.microsoft.com/ro-ro/microsoft-365/copilot/copilot-for-work#tabs-oc2a1c_tab2"
           },
           {
@@ -163,7 +163,7 @@ function autoInitializeResourceLinks() {
         title: "Ghid de setări",
         links: [
           {
-            text: "Cum să ajustezi funcționalitățile inteligente din Gmail",
+            text: "Cum să ajustezi funcțiile inteligente din Gmail",
             url: "https://support.google.com/mail/answer/10079371"
           },
           {

@@ -146,7 +146,7 @@ function createCardDeck(title, description, categories) {
  */
 const filterBubbleData = {
   title: 'Cum să identifici bulele de filtrare',
-  description: 'Descoperă câteva exemple comune de bule de filtrare pe care le poți întâlni în diverse experiențe digitale.',
+  description: 'Câteva exemple comune de bule de filtrare pe care le poți întâlni în diverse experiențe digitale.',
   categories: [
     {
       title: 'Social Media',
@@ -155,7 +155,7 @@ const filterBubbleData = {
       points: [
         'Fluxul tău de știri afișează din ce în ce mai multe articole similare cu cele pe care ai dat clic anterior.',
         'Cu timpul, vei observa o scădere a numărului de puncte de vedere diferite.',
-        'Conținut similar apare frecvent în partea de sus a fluxului tău de știri.'
+        'Aceleași tipuri de postări apar mereu primele în fluxul tău de știri sau social media.'
       ]
     },
     {
@@ -165,7 +165,7 @@ const filterBubbleData = {
       points: [
         'Recomandări de produse bazate pe istoricul tău de navigare.',
         'Sugestii de tipul "Clienții care au cumpărat acest produs au cumpărat și...".',
-        'Posibilitatea de prețuri personalizate în funcție de obiceiurile tale de cumpărături.'
+        'Vezi doar produse similare cu ce ai cumpărat deja.'
       ]
     },
     {

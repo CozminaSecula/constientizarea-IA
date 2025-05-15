@@ -185,50 +185,50 @@ function autoInitializeAccordionGroup() {
   // Extract data from structured_content.md
   const moduleData = {
     title: "Cum să identifici funcțiile bazate pe IA în instrumentele tale",
-    description: "Descoperă diferitele tipuri de funcționalități care utilizează inteligența artificială pe care le poți întâlni.",
+    description: "Câteva exemple de tipuri de funcții bazate pe IA întâlnite frecvent.",
     accordions: [
       {
-        title: "Funcționalități care învață",
-        subtitle: "Funcționalități care învață în timp din comportamentul tău",
+        title: "Funcții care învață",
+        subtitle: "Funcții care învață în timp din comportamentul tău.",
         icon: "bi-graph-up",
         color: "#62A8CB", // cyan-90
         items: [
-          "Sugestii de text care se îmbunătățesc pe măsură ce le folosești",
-          "Organizarea fotografiilor care recunoaște fețe",
-          "Flux de știri care arată mai mult conținut similar cu cel cu care interacționezi"
+          "Sugestii de text care se îmbunătățesc pe măsură ce le folosești.",
+          "Organizator de poze care învață să identifice mai bine fețele în timp.",
+          "Flux de știri care arată mai mult conținut similar cu cel cu care interacționezi."
         ]
       },
       {
-        title: "Funcționalități predictive",
-        subtitle: "Funcționalități care prezic ce ai nevoie",
+        title: "Funcții predictive",
+        subtitle: "Funcții care prezic ce ai nevoie.",
         icon: "bi-reception-4",
         color: "#78C26D", // green-90
         items: [
-          "Răspunsuri inteligente care se potrivesc stilului tău de scris",
-          "Sugestii de calendar bazate pe conținutul emailurilor tale",
-          "Text predictiv pe telefonul tău"
+          "Răspunsuri inteligente care se potrivesc stilului tău de scris.",
+          "Sugestii de calendar bazate pe conținutul emailurilor tale.",
+          "Text predictiv pe telefonul tău."
         ]
       },
       {
-        title: "Funcționalități de automatizare",
-        subtitle: "Funcționalități care automatizează sarcini repetitive",
+        title: "Funcții de automatizare",
+        subtitle: "Funcții care automatizează sarcini repetitive.",
         icon: "bi-magic",
         color: "#E16B67", // red-90
         items: [
-          "Sortarea emailurilor în categorii",
-          "Transcriere și rezumare a întâlnirilor",
-          "Introducere automată a datelor din documente scanate"
+          "Sortarea emailurilor pe categorii.",
+          "Transcrierea și rezumatul a întâlnirilor.",
+          "Introducerea automată a datelor din documente scanate."
         ]
       },
       {
-        title: "Funcționalități lingvistice",
-        subtitle: "Funcționalități care procesează limbajul natural",
+        title: "Funcții lingvistice",
+        subtitle: "Funcții care procesează limbajul natural",
         icon: "bi-chat-dots",
         color: "#FFD173", // yellow-90
         items: [
-          "Copilot în motoarele de căutare",
-          "Asistenți vocali care înțeleg întrebări",
-          "Corectare gramaticală care ține cont de context"
+          "Copilot în motoarele de căutare.",
+          "Asistenți vocali care înțeleg întrebări.",
+          "Corectare gramaticală care ține cont de context."
         ]
       }
     ]

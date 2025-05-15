@@ -211,25 +211,25 @@ function autoInitializeCompareCard() {
   // Extract data from structured_content.md
   const moduleData = {
     title: "IA sau nu?",
-    description: "Prin ce se deosebește o funcționalitate \"bazată pe IA\" de o funcție obișnuită a unui instrument?",
+    description: "Prin ce se deosebește o funcție \"bazată pe IA\" de o funcție obișnuită a unui instrument?",
     iaCard: {
-      title: "Funcționalități bazate pe IA",
+      title: "Funcții bazate pe IA",
       items: [
-        "Învață în timp din comportamentul tău",
-        "Face predicții sau sugestii",
-        "Se adaptează la tiparele tale de utilizare personale",
-        "Înțelege limbajul natural",
-        "Automatizează decizii complexe"
+        "Învață în timp din comportamentul tău.",
+        "Fac predicții sau sugestii.",
+        "Se adaptează la tiparele tale personale de utilizare.",
+        "Înțeleg limbajul natural.",
+        "Automatizează decizii complexe."
       ]
     },
     regularCard: {
-      title: "Funcționalități obișnuite",
+      title: "Funcții obișnuite",
       items: [
-        "Urmează doar reguli fixe",
-        "Se comportă mereu la fel",
-        "Necesită instrucțiuni explicite",
-        "Folosește doar potrivirea cuvintelor cheie",
-        "Realizează automatizări simple"
+        "Urmează doar reguli fixe.",
+        "Se comportă mereu la fel.",
+        "Necesită instrucțiuni explicite.",
+        "Folosesc doar potrivirea cuvintelor cheie.",
+        "Realizează automatizări simple."
       ]
     }
   };

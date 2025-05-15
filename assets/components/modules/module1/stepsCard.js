@@ -133,24 +133,24 @@ function autoInitializeStepsCard() {
     title: "Exercițiul tău de conștientizare IA de 30 de secunde",
     sections: [
       {
-        title: "Dacă folosești instrumente cu funcționalități IA:",
+        title: "Dacă folosești instrumente cu funcții IA:",
         icon: "bi bi-tools",
         steps: [
           "Mâine, când deschizi o aplicație de lucru, oprește-te o clipă.",
-          "Observă dacă vreo funcționalitate IA oferă sugestii sau automatizează sarcini.",
-          "Reflectează: Te ajută această funcționalitate sau te încurcă?"
+          "Observă dacă vreo funcție IA oferă sugestii sau automatizează sarcini.",
+          "Reflectează: Te ajută această funcție sau te încurcă?"
         ],
         bonus: "Identifică unde poți ajusta o setare IA pentru a-ți servi mai bine nevoile."
       },
       {
-        title: "Dacă nu folosești în prezent funcționalități IA:",
+        title: "Dacă nu folosești în prezent funcții IA:",
         icon: "bi bi-search",
         steps: [
           "Identifică un instrument comun pe care îl folosești zilnic.",
           "Gândește-te: Ce sarcină repetitivă îți ocupă timpul?",
           "Cercetează: Există o alternativă bazată pe IA care ar putea ajuta?"
         ],
-        bonus: "Întreabă un coleg dacă folosește funcționalități IA în fluxul său de lucru."
+        bonus: "Întreabă un coleg dacă folosește funcții IA în fluxul său de lucru."
       }
     ]
   };

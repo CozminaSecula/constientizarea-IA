@@ -194,16 +194,16 @@ function autoInitializeTabbedInterface() {
   // Extract data from structured_content.md
   const moduleData = {
     title: "Exemple comune în instrumente populare",
-    description: "Descoperă exemple de funcționalități bazate pe IA în instrumente populare de productivitate.",
+    description: "Exemple de funcții bazate pe IA în instrumente populare de productivitate.",
     tabs: [
       {
         id: "microsoft365",
         title: "Microsoft 365",
         logo: "https://img.icons8.com/color/48/000000/microsoft-office-2019.png",
         items: [
-          "Sugestiile de scriere ale Editorului: Recomandări de îmbunătățire a stilului și clarității textului",
-          "Ideile de design din PowerPoint: Sugestii automate pentru layout-uri și stiluri vizuale atractive",
-          "Recunoașterea tiparelor în Excel: Identificarea și completarea automată a seriilor de date"
+          "Sugestiile de scriere ale Editorului: Recomandări de îmbunătățire a stilului și clarității textului.",
+          "Ideile de design din PowerPoint: Sugestii automate pentru layout-uri și stiluri vizuale atractive.",
+          "Recunoașterea tiparelor în Excel: Identificarea și completarea automată a seriilor de date."
         ]
       },
       {
@@ -211,9 +211,9 @@ function autoInitializeTabbedInterface() {
         title: "Google Workspace",
         logo: "https://img.icons8.com/color/48/000000/google-workspace.png",
         items: [
-          "Smart Compose în Gmail: Completarea automată a frazelor în timp ce scrii emailuri",
-          "Transcriere automată a întâlnirilor în Meet: Conversia audio în text pentru ședințele online",
-          "Sugestii Smart Reply: Răspunsuri rapide personalizate generate automat pentru emailuri"
+          "Smart Compose în Gmail: Completarea automată a frazelor în timp ce scrii emailuri.",
+          "Transcriere automată a întâlnirilor în Meet: Conversia audio în text pentru ședințele online.",
+          "Sugestii Smart Reply: Răspunsuri rapide personalizate generate automat pentru emailuri."
         ]
       },
       {
@@ -221,9 +221,9 @@ function autoInitializeTabbedInterface() {
         title: "Slack/Teams",
         logo: "https://img.icons8.com/color/48/000000/slack-new.png",
         items: [
-          "Notificări prioritare: Filtrarea inteligentă a mesajelor importante care necesită atenția ta",
-          "Răspunsuri sugerate: Propuneri de răspunsuri rapide bazate pe context",
-          "Înțelegerea căutării: Rezultate relevante chiar și pentru întrebări formulate în limbaj natural"
+          "Notificări prioritare: Filtrarea inteligentă a mesajelor importante care necesită atenția ta.",
+          "Răspunsuri sugerate: Propuneri de răspunsuri rapide bazate pe context.",
+          "Înțelegerea căutării: Rezultate relevante chiar și pentru întrebări formulate în limbaj natural."
         ]
       }
     ]

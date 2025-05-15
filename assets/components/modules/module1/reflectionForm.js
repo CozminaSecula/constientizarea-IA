@@ -88,7 +88,7 @@ function createReflectionForm(title, questions) {
   textarea.className = 'form-control';
   textarea.id = 'reflection-text';
   textarea.rows = 4;
-  textarea.placeholder = 'Scrie-ți gândurile aici...nu le salvăm nicăieri, doar le folosești pentru a reflecta.';
+  textarea.placeholder = 'Scrie-ți gândurile aici...nu le salvăm nicăieri, folosești spațiul doar pentru a reflecta.';
   
   // Create submit button
   const submitButton = document.createElement('button');
@@ -221,8 +221,8 @@ function autoInitializeReflectionForm() {
   const moduleData = {
     title: "Reflecție rapidă",
     questions: [
-      "Dacă folosești funcționalități IA: Ce te-a surprins cel mai mult legat de unde apar acestea în ziua ta de lucru?",
-      "Dacă nu folosești încă funcționalități IA: Ce funcționalitate te-ar interesa cel mai mult să încerci și de ce?",
+      "Dacă folosești funcții IA: Ce te-a surprins cel mai mult legat de unde apar acestea în activitățile tale?",
+      "Dacă nu folosești încă funcții IA: Ce funcție te-ar interesa cel mai mult să încerci și de ce?",
       "Pentru toată lumea: Ce preocupări sau întrebări ai despre instrumentele IA la locul de muncă?"
     ]
   };
