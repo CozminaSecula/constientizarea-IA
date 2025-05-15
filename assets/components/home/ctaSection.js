@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="container my-5 py-5">
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-          <h2 class="fw-bold mb-3">${ctaTitle}</h2>
+          <h2 class="display-4 fw-bold mb-3">${ctaTitle}</h2>
           <p class="lead mb-4">${ctaSubtitle}</p>
           
           <div class="card shadow">
