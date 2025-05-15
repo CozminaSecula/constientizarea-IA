@@ -7,12 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const headerHeroContainer = document.getElementById('header-hero-container');
 
   // Create course title and description content from course-page.md
-  const courseTitleText = "IA Aplicații Practice:";
+  const courseTitleText = "Conștientizarea IA:";
   const courseSubtitleText = "Cum îți influențează inteligența artificială viața de zi cu zi";
   
   // Split the description into three logical parts
-  const courseDescriptionPart1 = "În acest curs de 5 zile în format email";
-  const courseDescriptionPart2 = "vei dezvolta o conștientizare practică a modului în care interacționezi cu IA.";
+  const courseDescriptionPart1 = "Conștientizare practică a interacțiunii cu IA în 5 zile, prin email.";
+  const courseDescriptionPart2 = "";
   const courseDescriptionPart3 = "";
 
   // Create header hero HTML structure with updated styling
@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
           <div class="col-md-10 mx-auto text-center">
             <h1 class="display-3 fw-bold mb-3">
-              <span style="color: black;">${courseTitleText}</span>
+              <span style="color:  #FDBF11;">${courseTitleText}</span>
               <span class="text-white">${courseSubtitleText}</span>
             </h1>
             
             <div style="max-width: 800px; margin: 0 auto; line-height: 1.7;">
               <p class="lead text-white fw-bold mb-1" style="font-size: 1.3rem;">
-                ${courseDescriptionPart1},
+                ${courseDescriptionPart1}
               </p>
               <p class="lead text-white fw-bold mb-1" style="font-size: 1.3rem;">
                 ${courseDescriptionPart2}
