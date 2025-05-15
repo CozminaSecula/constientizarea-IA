@@ -106,7 +106,7 @@ function autoInitializeIntroduction() {
   const moduleData = {
     introText: "Te-ai întrebat vreodată de ce vezi același tip de conținut sau aceiași oameni pe Facebook? Sau poate aceleași persoane pe LinkedIn? Acesta este efectul algoritmilor; ei personalizează ceea ce vezi pe fiecare platformă, analizând activitatea ta anterioară.",
     objectiveTitle: "Obiectivul de astăzi",
-    objectiveText: "Să înțelegem cum Inteligența Artificială (IA) modelează ceea ce vedem online prin personalizare și să învățăm să recunoaștem când ne aflăm într-o bulă de filtre care ne limitează perspectiva."
+    objectiveText: "Să înțelegem cum Inteligența Artificială (IA) modelează ceea ce vedem online prin personalizare și să învățăm să recunoaștem când ne aflăm într-o bulă de filtrare care ne limitează perspectiva."
   };
   
   // Initialize the introduction when the DOM is ready

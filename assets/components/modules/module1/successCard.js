@@ -124,7 +124,7 @@ function autoInitializeSuccessCard() {
   const moduleData = {
     title: "Felicitări!",
     message: "✨Ai finalizat Ziua 1 a sprintului de învățare IA! ✨<br><br>Împărtășește-ți ideile cu prietenii sau colegii tăi și discută despre cum IA îți poate îmbunătăți munca.",
-    nextModule: "Ziua 2: \"Personalizare & Bule de Filtrare\""
+    nextModule: "Ziua 2: \"Personalizarea & Bula de Filtrare\""
   };
   
   // Initialize the component when the DOM is ready

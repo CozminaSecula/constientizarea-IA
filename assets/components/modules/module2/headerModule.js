@@ -69,7 +69,7 @@ function autoInitializeHeaderModule() {
   // Extract data from structured_content.md 
   // This could be enhanced to fetch from the actual markdown file
   const moduleData = {
-    title: 'Personalizare & "Bule de Filtrare"',
+    title: 'Personalizarea & "Bula de Filtrare"',
     duration: "",
     type: "Conștientizarea IA"
   };

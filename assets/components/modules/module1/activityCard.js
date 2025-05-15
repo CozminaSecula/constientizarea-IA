@@ -238,8 +238,8 @@ function autoInitializeActivityCard() {
         id: "option-a",
         title: "Opțiunea A: Dacă ai aceste instrumente",
         steps: [
-          "Alege 3 instrumente pe care le-ai folosit astăzi și încearcă să identifici o funcționalitate IA în fiecare.",
-          "Notează cum te ajută (sau te încurcă) în muncă."
+          "Alege 3 instrumente pe care le-ai folosit astăzi și încearcă să identifici o funcție IA în fiecare.",
+          "Notează cum te ajută (sau te încurcă) în activitatea ta."
         ],
         bonus: null
       },
@@ -247,7 +247,7 @@ function autoInitializeActivityCard() {
         id: "option-b",
         title: "Opțiunea B: Dacă nu ai aceste instrumente",
         steps: [
-          "Alege 3 funcționalități din exemplele noastre care ar fi cele mai utile în munca ta.",
+          "Alege 3 funcții din exemplele noastre care ar fi cele mai utile în munca ta.",
           "Notează cum ți-ar putea schimba fluxul de lucru dacă le-ai avea."
         ],
         bonus: null

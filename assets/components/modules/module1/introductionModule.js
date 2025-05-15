@@ -41,11 +41,23 @@ function createIntroduction(introText, objectiveTitle, objectiveText) {
   // Create objective block
   const objectiveBlock = document.createElement('div');
   objectiveBlock.className = 'alert alert-info mt-3';
+
+  // Create a wrapper for the icon and title to display them inline
+  const objectiveTitleWrapper = document.createElement('div');
+  objectiveTitleWrapper.className = 'd-flex align-items-center mb-2';
+  
+  // Add icon to header
+  const objectiveIcon = document.createElement('i');
+  objectiveIcon.className = 'bi bi-bullseye me-2'; // Bootstrap icon for an objective
   
   // Create objective title
   const objectiveTitleElement = document.createElement('h4');
   objectiveTitleElement.className = 'alert-heading';
   objectiveTitleElement.textContent = objectiveTitle;
+
+  // Add icon and title to the wrapper
+  objectiveTitleWrapper.appendChild(objectiveIcon);
+  objectiveTitleWrapper.appendChild(objectiveTitleElement);
   
   // Create objective text
   const objectiveTextElement = document.createElement('p');
@@ -93,9 +105,9 @@ function autoInitializeIntroduction() {
   
   // Extract data from structured_content.md
   const moduleData = {
-    introText: "Indiferent dacă ești un utilizator avansat al celor mai noi tehnologii sau preferi simplitatea, funcționalitățile bazate pe Inteligență Artificială (IA) și-au făcut treptat apariția în instrumentele de lucru din jurul nostru. Unii dintre noi le folosim zilnic fără să ne dăm seama, în timp ce alții poate nu le-au întâlnit încă.",
+    introText: "Indiferent dacă ești un utilizator avansat al celor mai noi tehnologii sau preferi simplitatea, funcțiile bazate pe Inteligență Artificială (IA) și-au făcut treptat apariția în instrumentele de lucru din jurul nostru. Unii dintre noi le folosim zilnic fără să ne dăm seama, în timp ce alții poate nu le-au întâlnit încă.",
     objectiveTitle: "Obiectivul de astăzi",
-    objectiveText: "Să identificăm funcționalitățile bazate pe Inteligență Artificială (IA) în instrumentele de la locul de muncă. Acest lucru este util indiferent dacă le folosiți deja, veți avea acces la ele în curând sau pur și simplu doriți să înțelegeți despre ce discută colegii sau prietenii."
+    objectiveText: "Să identificăm funcțiile bazate pe Inteligență Artificială (IA) în instrumentele de la locul de muncă. Acest lucru este util indiferent dacă le folosiți deja, veți avea acces la ele în curând sau pur și simplu doriți să înțelegeți despre ce discută colegii sau prietenii."
   };
   
   // Initialize the introduction when the DOM is ready
