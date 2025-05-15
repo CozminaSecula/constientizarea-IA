@@ -1,0 +1,545 @@
+/* Add Google Fonts import at the top */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+
+/*-- scss:defaults --*/
+// Map your custom CSS properties to Bootstrap's Sass variables
+// Use direct color values here for Bootstrap's Sass compilation
+$primary:       #1696D2; // was var(--cyan-60)
+$secondary:     #5C5859; // was var(--spacegray-70)
+$success:       #55B748; // was var(--green-60)
+$danger:        #DB2B27; // was var(--red-60)
+$warning:       #FDBF11; // was var(--yellow-60)
+$info:          #73BFE2; // was var(--cyan-80)
+$light:         #F5F5F5; // was var(--gray-light-100)
+$dark:          #1A1717; // was var(--gray-dark-40)
+
+// Custom semantic color for orange
+$orange:        #E88E2D; // was var(--yellow-50)
+
+// Body background and color
+// For the light theme, Bootstrap will derive its needs from these.
+// If you have complex dark theme logic relying on Sass functions for these,
+// you might need to adjust how dark theme variables are set or handled.
+$body-bg:       #fff;    // was var(--bs-body-bg)
+$body-color:    #343a40; // was var(--bs-body-color)
+
+// Link color
+$link-color:    #39729E; // was var(--bs-link-color)
+// Bootstrap will generate $link-hover-color from $link-color if not explicitly set.
+
+// Example: If you want to ensure the font family is picked up by Sass variables too
+$font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// $headings-font-weight: 500; // Example if you want a different default for headings
+
+/*-- scss:defaults:end --*/
+
+/*-- scss:rules --*/
+:root,[data-bs-theme=light] {
+  /* Primary Colors */
+  --cyan-60: #1696D2;
+  --gray-60: #D2D2D2;
+  --black: #000000;
+
+  /* Secondary Colors */
+  --yellow-60: #FDBF11;
+  --pink-60: #EC008B;
+
+  /* Tertiary Colors */
+  --spacegray-70: #5C5859;
+  --green-60: #55B748;
+  --red-60: #DB2B27;
+
+  /* Cyan color scale */
+  --cyan-100: #CFE8F3;
+  --cyan-90: #A2D4EC;
+  --cyan-80: #73BFE2;
+  --cyan-70: #46ABDB;
+  --cyan-50: #12719E;
+  --cyan-40: #0A4C6A;
+  --cyan-30: #062635;
+
+  /* Yellow color scale */
+  --yellow-100: #FFF2D4;
+  --yellow-90: #FCE39E;
+  --yellow-80: #FDD870;
+  --yellow-70: #FCCB41;
+  --yellow-50: #E88E2D;
+  --yellow-40: #CA5800;
+  --yellow-30: #843215;
+
+  /* Pink color scale */
+  --pink-100: #F5CBDF;
+  --pink-90: #EB99C2;
+  --pink-80: #E46AA7;
+  --pink-70: #E54096;
+  --pink-50: #AF1F6B;
+  --pink-40: #761548;
+  --pink-30: #351123;
+
+  /* Green color scale */
+  --green-100: #DCEDD9;
+  --green-90: #BCDEB4;
+  --green-80: #98CF90;
+  --green-70: #78C26D;
+  --green-50: #408941;
+  --green-40: #2C5C2D;
+  --green-30: #1A2E19;
+
+  /* Red color scale */
+  --red-100: #F8D5D4;
+  --red-90: #F1AAA9;
+  --red-80: #E9807D;
+  --red-70: #E25552;
+  --red-50: #A4201D;
+  --red-40: #6E1614;
+  --red-30: #370B0A;
+
+  /* Gray Light scale */
+  --gray-light-100: #F5F5F5;
+  --gray-light-90: #ECECEC;
+  --gray-light-80: #E3E3E3;
+  --gray-light-70: #DCDBDB;
+  --gray-light-50: #9D9D9D;
+  --gray-light-40: #696969;
+  --gray-light-30: #353535;
+
+  /* Gray Dark scale */
+  --gray-dark-100: #D5D5D4;
+  --gray-dark-90: #ADABAC;
+  --gray-dark-80: #848081;
+  --gray-dark-70: #5C5859;
+  --gray-dark-60: #332D2F;
+  --gray-dark-50: #262223;
+  --gray-dark-40: #1A1717;
+
+
+  /* Other colors */
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+
+  --bs-primary-text-emphasis: rgb(15.6, 51.2, 90.8);
+  --bs-secondary-text-emphasis: rgb(20.8, 23.2, 25.6);
+  --bs-success-text-emphasis: rgb(25.2, 72.8, 9.6);
+  --bs-info-text-emphasis: rgb(61.2, 33.6, 74.8);
+  --bs-warning-text-emphasis: rgb(102, 46.8, 9.6);
+  --bs-danger-text-emphasis: rgb(102, 0, 22.8);
+  --bs-light-text-emphasis: #495057;
+  --bs-dark-text-emphasis: #495057;
+
+  --bs-primary-bg-subtle: rgb(211.8, 229.6, 249.4);
+  --bs-secondary-bg-subtle: rgb(214.4, 215.6, 216.8);
+  --bs-success-bg-subtle: rgb(216.6, 240.4, 208.8);
+  --bs-info-bg-subtle: rgb(234.6, 220.8, 241.4);
+  --bs-warning-bg-subtle: rgb(255, 227.4, 208.8);
+  --bs-danger-bg-subtle: rgb(255, 204, 215.4);
+  --bs-light-bg-subtle: rgb(251.5, 252, 252.5);
+  --bs-dark-bg-subtle: #ced4da;
+  --bs-primary-border-subtle: rgb(168.6, 204.2, 243.8);
+  --bs-secondary-border-subtle: rgb(173.8, 176.2, 178.6);
+  --bs-success-border-subtle: rgb(178.2, 225.8, 162.6);
+  --bs-info-border-subtle: rgb(214.2, 186.6, 227.8);
+  --bs-warning-border-subtle: rgb(255, 199.8, 162.6);
+  --bs-danger-border-subtle: rgb(255, 153, 175.8);
+  --bs-light-border-subtle: #e9ecef;
+  --bs-dark-border-subtle: #adb5bd;
+
+
+  --bs-font-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-root-font-size: 17px;
+  --bs-body-font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #343a40;
+  --bs-body-color-rgb: 52, 58, 64;
+  --bs-body-bg: #fff;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-emphasis-color: #000;
+  --bs-emphasis-color-rgb: 0, 0, 0;
+  --bs-secondary-color: rgba(52, 58, 64, 0.75);
+  --bs-secondary-color-rgb: 52, 58, 64;
+  --bs-secondary-bg: #e9ecef;
+  --bs-secondary-bg-rgb: 233, 236, 239;
+  --bs-tertiary-color: rgba(52, 58, 64, 0.5);
+  --bs-tertiary-color-rgb: 52, 58, 64;
+  --bs-tertiary-bg: #f8f9fa;
+  --bs-tertiary-bg-rgb: 248, 249, 250;
+  --bs-heading-color: inherit;
+  --bs-link-color: #39729E;
+  --bs-link-color-rgb: 57, 114, 158;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: rgb(45.6, 91.2, 126.4);
+  --bs-link-hover-color-rgb: 46, 91, 126;
+  --bs-code-color: #7d12ba;
+  --bs-highlight-bg: rgb(255, 227.4, 208.8);
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.25rem;
+  --bs-border-radius-sm: 0.2em;
+  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-xxl: 2rem;
+  --bs-border-radius-2xl: var(--bs-border-radius-xxl);
+  --bs-border-radius-pill: 50rem;
+  --bs-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+  --bs-focus-ring-width: 0.25rem;
+  --bs-focus-ring-opacity: 0.25;
+  --bs-focus-ring-color: rgba(39, 128, 227, 0.25);
+  --bs-form-valid-color: #3fb618;
+  --bs-form-valid-border-color: #3fb618;
+  --bs-form-invalid-color: #ff0039;
+  --bs-form-invalid-border-color: #ff0039
+  }
+
+
+[data-bs-theme=dark] {
+  color-scheme: dark;
+  --bs-body-color: #dee2e6;
+  --bs-body-color-rgb: 222, 226, 230;
+  --bs-body-bg: #212529;
+  --bs-body-bg-rgb: 33, 37, 41;
+  --bs-emphasis-color: #fff;
+  --bs-emphasis-color-rgb: 255, 255, 255;
+  --bs-secondary-color: rgba(222, 226, 230, 0.75);
+  --bs-secondary-color-rgb: 222, 226, 230;
+  --bs-secondary-bg: #343a40;
+  --bs-secondary-bg-rgb: 52, 58, 64;
+  --bs-tertiary-color: rgba(222, 226, 230, 0.5);
+  --bs-tertiary-color-rgb: 222, 226, 230;
+  --bs-tertiary-bg: rgb(42.5, 47.5, 52.5);
+  --bs-tertiary-bg-rgb: 43, 48, 53;
+  --bs-primary-text-emphasis: rgb(125.4, 178.8, 238.2);
+  --bs-secondary-text-emphasis: rgb(133.2, 136.8, 140.4);
+  --bs-success-text-emphasis: rgb(139.8, 211.2, 116.4);
+  --bs-info-text-emphasis: rgb(193.8, 152.4, 214.2);
+  --bs-warning-text-emphasis: rgb(255, 172.2, 116.4);
+  --bs-danger-text-emphasis: rgb(255, 102, 136.2);
+  --bs-light-text-emphasis: #f8f9fa;
+  --bs-dark-text-emphasis: #dee2e6;
+  --bs-primary-bg-subtle: rgb(7.8, 25.6, 45.4);
+  --bs-secondary-bg-subtle: rgb(10.4, 11.6, 12.8);
+  --bs-success-bg-subtle: rgb(12.6, 36.4, 4.8);
+  --bs-info-bg-subtle: rgb(30.6, 16.8, 37.4);
+  --bs-warning-bg-subtle: rgb(51, 23.4, 4.8);
+  --bs-danger-bg-subtle: rgb(51, 0, 11.4);
+  --bs-light-bg-subtle: #343a40;
+  --bs-dark-bg-subtle: #1a1d20;
+  --bs-primary-border-subtle: rgb(23.4, 76.8, 136.2);
+  --bs-secondary-border-subtle: rgb(31.2, 34.8, 38.4);
+  --bs-success-border-subtle: rgb(37.8, 109.2, 14.4);
+  --bs-info-border-subtle: rgb(91.8, 50.4, 112.2);
+  --bs-warning-border-subtle: rgb(153, 70.2, 14.4);
+  --bs-danger-border-subtle: rgb(153, 0, 34.2);
+  --bs-heading-color: inherit;
+  --bs-link-color: rgb(125.4, 178.8, 238.2);
+  --bs-link-hover-color: rgb(151.32, 194.04, 241.56);
+  --bs-link-color-rgb: 125, 179, 238;
+  --bs-link-hover-color-rgb: 151, 194, 242;
+  --bs-code-color: white;
+  --bs-border-color: #495057;
+  --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
+  --bs-form-valid-color: rgb(139.8, 211.2, 116.4);
+  --bs-form-valid-border-color: rgb(139.8, 211.2, 116.4);
+  --bs-form-invalid-color: rgb(255, 102, 136.2);
+  --bs-form-invalid-border-color: rgb(255, 102, 136.2)
+}
+
+
+*,*::before,*::after {
+  box-sizing: border-box
+}
+
+:root {
+  font-size: var(--bs-root-font-size)
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0,0,0, var(--text-opacity));
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: .25
+}
+
+h6,.h6,h5,.h5,h4,.h4,h3,.h3,h2,.h2,h1,.h1 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+}
+
+h1,.h1 {
+  font-size: calc(1.325rem + 0.9vw)
+}
+
+@media(min-width: 1200px) {
+  h1,.h1 {
+      font-size:2rem
+  }
+}
+
+h2,.h2 {
+  font-size: calc(1.29rem + 0.48vw)
+}
+
+@media(min-width: 1200px) {
+  h2,.h2 {
+      font-size:1.65rem
+  }
+}
+
+h3,.h3 {
+  font-size: calc(1.27rem + 0.24vw)
+}
+
+@media(min-width: 1200px) {
+  h3,.h3 {
+      font-size:1.45rem
+  }
+}
+
+h4,.h4 {
+  font-size: 1.25rem
+}
+
+h5,.h5 {
+  font-size: 1.1rem
+}
+
+h6,.h6 {
+  font-size: 1rem
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem
+}
+
+
+/* Custom styles to fix dropdown menu issues */
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar .dropdown-menu {
+  margin-top: 0;
+}
+
+.navbar .dropdown-menu.show {
+  display: block !important;
+}
+
+/* Ensure dropdown items display properly */
+.navbar .dropdown-item {
+  padding: 0.5rem 1rem;
+  clear: both;
+  white-space: nowrap;
+}
+
+/* Improve mobile dropdown display */
+@media (max-width: 991.98px) {
+  .navbar-collapse.show .dropdown-menu {
+    display: block;
+  }
+  
+  .navbar .dropdown-menu {
+    background-color: #A2D4EC;
+    border: none;
+  }
+}
+
+
+
+
+/* Introduction */
+
+// Override Bootstrap's card-header specifically
+.card-header {
+  background-color: #E3E3E3;
+  color: #000000; // Adding for better contrast
+}
+
+.alert-info {
+  background-color: #CFE8F3;
+  color: #000000; // Adding for better contrast
+}
+
+/*AccordionGroup*/
+/* Add these styles at the end of your file */
+
+/* Accordion customization */
+.accordion-button {
+  background-color: #E3E3E3 !important; /* Light gray background */
+  color: #000000 !important; /* Dark text color for contrast */
+}
+
+/* Style for when the button is collapsed */
+.accordion-button:not(.collapsed) {
+  background-color: #E3E3E3 !important; /* Keep same color when expanded */
+  color: #000 !important;
+  box-shadow: none !important; /* Remove the focus shadow */
+}
+
+/* Remove the default color change on hover/focus */
+.accordion-button:hover,
+.accordion-button:focus {
+  background-color: #D2D2D2 !important; /* Slightly darker on hover */
+  box-shadow: none !important;
+}
+
+/* Style the accordion button icon */
+.accordion-button::after {
+  color: #333 !important; /* Match the text color */
+}
+
+/* Style the accordion header border if needed */
+.accordion-header {
+  border-color: #ccc !important;
+}
+
+/* Style the accordion item body if needed */
+.accordion-body {
+  background-color: #F5F5F5; /* Slightly lighter than the header */
+  color: #333;
+}
+
+
+/* Quiz Card customization */
+.card.border-warning {
+  border-color: var(--cyan-100) !important; /* Change to your preferred color */
+}
+
+.card-header.bg-warning.bg-opacity-10 {
+  background-color: rgba(22, 150, 210, 0.1) !important; /* Light cyan background */
+}
+
+.btn-warning {
+  background-color: var(--cyan-60) !important;
+  border-color: var(--cyan-60) !important;
+  color: white !important;
+}
+
+.btn-warning:hover {
+  background-color: var(--cyan-50) !important; /* Slightly darker on hover */
+  border-color: var(--cyan-50) !important;
+}
+
+
+/* Activity Card customization */
+.card.border-success {
+  border-color: var(--cyan-100) !important; /* Change to your preferred color */
+}
+
+.card-header.bg-success.bg-opacity-10 {
+  background-color: rgba(22, 150, 210, 0.1) !important; /* Light cyan background */
+  color: #000 !important; /* Adding for better contrast */
+}
+
+.btn-success {
+  background-color: var(--cyan-60) !important;
+  border-color: var(--cyan-60) !important;
+  color: white !important;
+}
+
+.btn-success:hover {
+  background-color: var(--cyan-50) !important; /* Slightly darker on hover */
+  border-color: var(--cyan-50) !important;
+}
+
+/* Badge customization for the bonus badge */
+.badge.bg-success {
+  background-color: var(--cyan-80) !important;
+}
+
+
+/* Activity Card Nav Pills customization */
+.nav-pills .nav-link {
+  color: var(--black) !important; /* Text color for inactive tabs */
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--cyan-80) !important; /* Background for active tab */
+  color: black !important; /* Text color for active tab */
+}
+
+/* Hover effect for nav pills */
+.nav-pills .nav-link:hover:not(.active) {
+  background-color: rgba(22, 150, 210, 0.1) !important; /* Light cyan on hover */
+  color: var(--cyan-50) !important; /* Slightly darker text on hover */
+}
+
+/* In case you also want to customize the nav-pills outline when focused */
+.nav-pills .nav-link:focus {
+  box-shadow: 0 0 0 0.25rem rgba(22, 150, 210, 0.25) !important;
+}
+
+
+
+/* StepsCard customization */
+.card.border-primary {
+  border-color: transparent !important;
+}
+
+/*Success Card customization */
+
+/* Primary Button customization */
+.btn-primary {
+  background-color: var(--cyan-60) !important;
+  border-color: var(--cyan-60) !important;
+  color: white !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: var(--cyan-50) !important; /* Slightly darker on hover/focus */
+  border-color: var(--cyan-50) !important;
+}
+
+/* For disabled state */
+.btn-primary:disabled, .btn-primary.disabled {
+  background-color: var(--cyan-40) !important;
+  border-color: var(--cyan-40) !important;
+  opacity: 0.65;
+}
+
+/* For active/pressed state */
+.btn-primary:active, .btn-primary.active {
+  background-color: var(--cyan-70) !important;
+  border-color: var(--cyan-70) !important;
+}
+
+/* Override text-success color */
+.text-success {
+  color: #1696D2 !important;
+}
+
+/* For when opacity is used with text-success */
+.text-success {
+  --bs-text-opacity: 1;
+  color: rgba(22, 150, 210, var(--bs-text-opacity)) !important;
+}
+
