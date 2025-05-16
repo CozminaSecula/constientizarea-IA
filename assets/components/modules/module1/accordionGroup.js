@@ -185,28 +185,28 @@ function autoInitializeAccordionGroup() {
   // Extract data from structured_content.md
   const moduleData = {
     title: "Cum să identifici funcțiile bazate pe IA în instrumentele tale",
-    description: "Câteva exemple de tipuri de funcții bazate pe IA întâlnite frecvent.",
+    description: "Iată câteva categorii de funcții bazate pe IA întâlnite frecvent:",
     accordions: [
       {
         title: "Funcții care învață",
-        subtitle: "Funcții care învață în timp din comportamentul tău.",
+        subtitle: "Se adaptează și se îmbunătățesc pe baza interacțiunilor tale anterioare.",
         icon: "bi-graph-up",
         color: "#62A8CB", // cyan-90
         items: [
-          "Sugestii de text care se îmbunătățesc pe măsură ce le folosești.",
-          "Organizator de poze care învață să identifice mai bine fețele în timp.",
-          "Flux de știri care arată mai mult conținut similar cu cel cu care interacționezi."
+          "Sugestii de text care se adaptează la stilul tău de scriere și oferă completări mai relevante.",
+          "Organizator de fotografii care învață să recunoască mai bine persoanele și obiectele importante pentru tine.",
+          "Flux de știri persoanlizat care afișează mai mult conținut similar cu cel cu care interacționezi frecvent."
         ]
       },
       {
         title: "Funcții predictive",
-        subtitle: "Funcții care prezic ce ai nevoie.",
+        subtitle: "Funcții care anticipează nevoile tale.",
         icon: "bi-reception-4",
         color: "#78C26D", // green-90
         items: [
-          "Răspunsuri inteligente care se potrivesc stilului tău de scris.",
-          "Sugestii de calendar bazate pe conținutul emailurilor tale.",
-          "Text predictiv pe telefonul tău."
+          "Răspunsuri inteligente la email care se potrivesc stilului tău de comunicare.",
+          "Sugestii de programare care propun întâlniri bazate pe conținutul conversațiilor tale.",
+          "Text predictiv care completează automat frazele când scrii mesaje pe telefon."
         ]
       },
       {
@@ -215,20 +215,20 @@ function autoInitializeAccordionGroup() {
         icon: "bi-magic",
         color: "#E16B67", // red-90
         items: [
-          "Sortarea emailurilor pe categorii.",
-          "Transcrierea și rezumatul a întâlnirilor.",
-          "Introducerea automată a datelor din documente scanate."
+          "Sortarea automată a emailurilor în categorii relevante.",
+          "Transcriere și rezumare, transformă înregistrările audio în text și extrag punctele principale.",
+          "Extragerea datelor, identifică și organizează informațiile din documente scanate."
         ]
       },
       {
         title: "Funcții lingvistice",
-        subtitle: "Funcții care procesează limbajul natural",
+        subtitle: "Funcții care înțeleg și procesează limbajul uman",
         icon: "bi-chat-dots",
         color: "#FFD173", // yellow-90
         items: [
-          "Copilot în motoarele de căutare.",
-          "Asistenți vocali care înțeleg întrebări.",
-          "Corectare gramaticală care ține cont de context."
+          "Asistenți de căutare care înțeleg întrebări complexe și oferă răspunsuri directe, nu doar linkuri.",
+          "Asistenți vocali care interpretează comenzi verbale și răspund în mod natural.",
+          "Corectare gramaticală avansată, oferă sugestii de îmbunătățire care țin cont de context și intenție."
         ]
       }
     ]

@@ -105,9 +105,9 @@ function autoInitializeIntroduction() {
   
   // Extract data from structured_content.md
   const moduleData = {
-    introText: "Indiferent dacă ești un utilizator avansat al celor mai noi tehnologii sau preferi simplitatea, funcțiile bazate pe Inteligență Artificială (IA) și-au făcut treptat apariția în instrumentele de lucru din jurul nostru. Unii dintre noi le folosim zilnic fără să ne dăm seama, în timp ce alții poate nu le-au întâlnit încă.",
+    introText: "Indiferent dacă ești un utilizator avansat al celor mai noi tehnologii sau preferi simplitatea, funcțiile bazate pe Inteligență Artificială (IA) și-au făcut treptat apariția în instrumentele de lucru din jurul nostru. Mulți le folosim zilnic fără să ne dăm seama, în timp ce alții poate nu le-au întâlnit încă.",
     objectiveTitle: "Obiectivul de astăzi",
-    objectiveText: "Să identificăm funcțiile bazate pe Inteligență Artificială (IA) în instrumentele de la locul de muncă. Acest lucru este util indiferent dacă le folosiți deja, veți avea acces la ele în curând sau pur și simplu doriți să înțelegeți despre ce discută colegii sau prietenii."
+    objectiveText: "Să identificăm funcțiile bazate pe IA în instrumentele de la locul de muncă."
   };
   
   // Initialize the introduction when the DOM is ready

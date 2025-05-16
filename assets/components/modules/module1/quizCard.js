@@ -246,35 +246,35 @@ function initQuizCard(elementId, title, questions) {
 function autoInitializeQuizCard() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Verificare rapidă: Poți identifica IA?",
+    title: "Verificare rapidă: Recunoaște IA",
     questions: [
       {
         text: "Care dintre aceste funcții folosește IA?",
         type: "radio",
         options: [
-          "Filtrarea spamului în email care se îmbunătățește în timp.",
-          "Configurarea unui filtru de email pentru a muta toate mesajele de la un coleg într-un folder specific.",
-          "Folosirea formulelor Excel pentru a calcula totalul vânzărilor.",
+          "Filtrarea spamului care se îmbunătățește automat în timp.",
+          "Configurarea manuală a unui filtru pentru a muta emailurile unui coleg într-un folder specific.",
+          "Utilizarea formulelor Excel pentru calcule simple.",
           "Crearea unui șablon de semnătură pentru email."
         ],
-        correctAnswer: "Filtrarea spamului în email care se îmbunătățește în timp.",
+        correctAnswer: "Filtrarea spamului care se îmbunătățește automat în timp.",
         explanation: "Filtrele de spam folosesc IA pentru a învăța și a se adapta în timp la noi tipuri de spam."
       },
       {
-        text: "Ce face o funcție să fie bazată pe IA? (Selectează toate variantele aplicabile)",
+        text: "Ce caracteristici definesc o funcționalitate bazată pe IA? (Selectează toate variantele corecte)",
         type: "checkbox",
         options: [
-          "Învață din comportamentul tău în timp.",
-          "Face predicții bazate pe tipare.",
-          "Urmează reguli exacte pe care le-ai definit.",
-          "Poate procesa și înțelege limbajul natural."
+          "Învață și se adaptează în timp.",
+          "Face predicții bazate pe tipare observate.",
+          "Urmează exact regulile pe care le-ai configurat manual.",
+          "Înțelege și procesează limbajul natural."
         ],
         correctAnswers: [
-          "Învață din comportamentul tău în timp.",
-          "Face predicții bazate pe tipare.",
-          "Poate procesa și înțelege limbajul natural."
+          "Învață și se adaptează în timp.",
+          "Face predicții bazate pe tipare observate.",
+          "Înțelege și procesează limbajul natural."
         ],
-        explanation: "Funcțiile IA învață din comportament, fac predicții și pot înțelege limbajul natural, nu urmează doar reguli fixe."
+        explanation: "Funcțiile IA învață din comportament, fac predicții și pot înțelege limbajul natural."
       }
     ]
   };

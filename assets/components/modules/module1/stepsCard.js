@@ -130,27 +130,27 @@ function initStepsCard(elementId, title, sections) {
 function autoInitializeStepsCard() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Exercițiul tău de conștientizare IA de 30 de secunde",
+    title: "Exercițiu de conștientizare IA: 30 de secunde",
     sections: [
       {
-        title: "Dacă folosești instrumente cu funcții IA:",
+        title: "Pentru utilizatorii instrumentelor cu IA:",
         icon: "bi bi-tools",
         steps: [
-          "Mâine, când deschizi o aplicație de lucru, oprește-te o clipă.",
-          "Observă dacă vreo funcție IA oferă sugestii sau automatizează sarcini.",
-          "Reflectează: Te ajută această funcție sau te încurcă?"
+          "Mâine, când deschizi prima aplicație de lucru, observă cu atenție interfața.",
+          "Identifică un element care oferă sugestii personalizate sau automatizează o decizie.",
+          "Întreabă-te: Această funcție mă ajută cu adevărat sau doar complică lucrurile?"
         ],
-        bonus: "Identifică unde poți ajusta o setare IA pentru a-ți servi mai bine nevoile."
+        bonus: "Găsește în setările aplicației unde poți personaliza comportamentul acestei funcții."
       },
       {
-        title: "Dacă nu folosești în prezent funcții IA:",
+        title: "Pentru cei fără acces curent la instrumente IA:",
         icon: "bi bi-search",
         steps: [
-          "Identifică un instrument comun pe care îl folosești zilnic.",
-          "Gândește-te: Ce sarcină repetitivă îți ocupă timpul?",
-          "Cercetează: Există o alternativă bazată pe IA care ar putea ajuta?"
+          "Alege o sarcină repetitivă care îți ocupă zilnic cel puțin 15 minute.",
+          "Caută online un instrument bazat pe IA care ar putea automatiza această sarcină.",
+          "Evaluează beneficiile potențiale: timp economisit vs. efort de învățare."
         ],
-        bonus: "Întreabă un coleg dacă folosește funcții IA în fluxul său de lucru."
+        bonus: "Discută cu un coleg despre o funcție IA pe care o folosește și ce impact are asupra productivității sale."
       }
     ]
   };

@@ -123,14 +123,14 @@ function initAlertCard(elementId, title, description, items) {
 function autoInitializeAlertCard() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Ce nu este IA",
-    description: "Nu tot ce este \"inteligent\" este IA. Iată câteva funcții confundate frecvent cu IA:",
+    title: "Ce NU este bazat pe IA",
+    description: "Nu toate funcțiile \"inteligente\" utilizează IA. Iată câteva exemple frecvent confundate:",
     items: [
-      "Filtre foto predefinite. Multe aplicații au filtre fixe, nu generative.",
-      "Căutare cu cuvinte cheie. Simpla potrivire de text, nu înțelegere semantică.",
-      "Recomandări bazate pe reguli. \"Dacă ai cumpărat X, îți arătăm Y\" folosind reguli simple, nu analiză comportamentală complexă.",
-      "Sortări și filtrări simple. Organizează după criterii predefinite, nu învață din preferințele tale.",
-      "Detectarea spam-ului cu liste de cuvinte. Blochează mesaje care conțin termeni specifici, nu analizează contextul."
+      "Filtre foto predefinite: multe aplicații au filtre fixe, nu generative.",
+      "Căutare folosind cuvinte cheie: simpla potrivire de text, nu înțelegere semantică.",
+      "Recomandări bazate pe reguli. \"dacă ai cumpărat X, îți arătăm Y\" folosind reguli simple, nu analiză comportamentală complexă.",
+      "Sortări și filtrări simple: organizează după criterii predefinite, nu învață din preferințele tale.",
+      "Detectarea spam-ului cu liste de cuvinte: Blochează mesaje care conțin termeni specifici, nu analizează contextul."
     ]
   };
   

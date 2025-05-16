@@ -140,10 +140,10 @@ function initResourceLinks(elementId, title, resourceGroups) {
 function autoInitializeResourceLinks() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Resurse",
+    title: "Resurse utile",
     resourceGroups: {
       learnMore: {
-        title: "Află mai multe",
+        title: "Pentru aprofundare",
         links: [
           {
             text: "Funcții IA în Microsoft 365",
@@ -160,7 +160,7 @@ function autoInitializeResourceLinks() {
         ]
       },
       settings: {
-        title: "Ghid de setări",
+        title: "Pentru configurare",
         links: [
           {
             text: "Cum să ajustezi funcțiile inteligente din Gmail",
