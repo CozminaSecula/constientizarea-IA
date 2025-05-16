@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const courseSubtitleText = "Cum îți influențează inteligența artificială viața de zi cu zi";
   
   // Split the description into three logical parts
-  const courseDescriptionPart1 = "Curs practic de conștientizare interacțiunii cu IA în 5 zile, prin email.";
+  const courseDescriptionPart1 = "Curs practic de conștientizarea interacțiunii cu IA în 5 zile, prin email.";
   const courseDescriptionPart2 = "";
   const courseDescriptionPart3 = "";
 
