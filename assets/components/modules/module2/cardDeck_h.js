@@ -146,25 +146,25 @@ function createCardDeck(title, description, categories) {
  */
 const filterBubbleData = {
   title: 'Cum să identifici bulele de filtrare',
-  description: 'Câteva exemple comune de bule de filtrare pe care le poți întâlni în diverse experiențe digitale.',
+  description: 'Iată câteva exemple concrete de bule de filtrare pe care le poți întâlni zilnic:',
   categories: [
     {
-      title: 'Social Media',
+      title: 'Pe platformele sociale',
       icon: 'bi bi-share',
       headerBgColor: '#CFE8F3', // Add custom background color
       points: [
-        'Fluxul tău de știri afișează din ce în ce mai multe articole similare cu cele pe care ai dat clic anterior.',
-        'Cu timpul, vei observa o scădere a numărului de puncte de vedere diferite.',
-        'Aceleași tipuri de postări apar mereu primele în fluxul tău de știri sau social media.'
+        'Feed-ul tău afișează tot mai multe articole similare cu cele pe care ai dat clic anterior.',
+        'Observi că vezi tot mai puține opinii diferite de ale tale.',
+        'Conținutul de la aceiași creatori apare frecvent în partea de sus a feed-ului.'
       ]
     },
     {
-      title: 'Cumpărături',
+      title: 'În experiențele de cumpărături online',
       icon: 'bi bi-cart',
       headerBgColor: '#CFE8F3', // Use headerBgColor instead of headerClass
       points: [
-        'Recomandări de produse bazate pe istoricul tău de navigare.',
-        'Sugestii de tipul "Clienții care au cumpărat acest produs au cumpărat și...".',
+        'Primești recomandări de produse bazate strict pe istoricul tău de navigare.',
+        'Vezi sugestii de tipul "Clienții care au cumpărat acest produs au cumpărat și...".',
         'Vezi doar produse similare cu ce ai cumpărat deja.'
       ]
     },
@@ -173,9 +173,9 @@ const filterBubbleData = {
       icon: 'bi bi-briefcase',
       headerBgColor: '#CFE8F3', // Use headerBgColor instead of headerClass
       points: [
-        'Rezultatele căutării pentru aspecte profesionale favorizează sursele pe care le-ai folosit anterior.',
+        'Când cauți informații profesionale, rezultatele favorizează sursele accesate anterior.',
         'Instrumentele de comunicare prioritizează mesajele de la contactele frecvente.',
-        'Fluxurile de la locul de muncă subliniază subiectele legate de departamentul tău.'
+        'Sistemele interne evidențiază în principal conținut relevant pentru departamentul tău.'
       ]
     }
   ]

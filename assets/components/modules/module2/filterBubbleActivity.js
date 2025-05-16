@@ -6,29 +6,29 @@ import { initActivityCard } from './activityCardSimple.js';
 function initFilterBubbleActivity() {
   // Data extracted from structured_content.md
   const moduleData = {
-    title: "Încearcă: Activitate de 2 minute",
+    title: "Activitate practică: 2 minute",
     activities: [
       {
         id: "search-comparison",
         title: "Opțiunea 1: Compară rezultatele căutării",
-        description: "Caută un subiect legat de muncă în browserul tău obișnuit, apoi într-o fereastră privată/incognito (aceasta împiedică istoricul tău de navigare să influențeze rezultatele). Notează orice diferențe în rezultate.",
+        description: "Urmează acești pași simpli:",
         steps: [
-          "Alege un subiect relevant pentru munca ta",
-          "Caută în browserul tău normal",
-          "Deschide o fereastră incognito/privată și caută exact aceeași frază",
-          "Compară primele 3 rezultate din fiecare fereastră"
+          "Alege un subiect relevant pentru munca ta (exemplu: 'strategii de management').",
+          "Caută-l în browserul tău obișnuit și notează primele 3 rezultate.",
+          "Deschide o fereastră incognito/privată și caută exact aceeași frază.",
+          "Compară cele două liste de rezultate - observi diferențe?."
         ],
         bonus: null
       },
       {
         id: "recommendation-check",
-        title: "Opțiunea 2: Verifică recomandările primite",
-        description: "Uită-te la recomandările de conținut dintr-un instrument pe care îl folosești. Sunt variate sau similare?",
+        title: "Opțiunea 2: Analizează recomandările primite",
+        description: "Urmează acești pași simpli:",
         steps: [
-          "Deschide o platformă pe care o folosești regulat și care afișează recomandări",
-          "Uită-te la primele 5-10 elemente recomandate",
-          "Notează cât de similare sau diferite sunt unele de altele",
-          "Gândește-te: Cât de bine reprezintă acestea gama completă de opțiuni?"
+          "Deschide o platformă pe care o folosești des (LinkedIn, YouTube, Facebook etc.).",
+          "Identifică primele 5 recomandări de conținut.",
+          "Notează pe o scală de la 1 la 5 cât de diverse sunt aceste recomandări.",
+          "Reflectează: Reprezintă acestea o gamă variată de perspective sau sunt foarte similare?"
         ],
         bonus: null
       }

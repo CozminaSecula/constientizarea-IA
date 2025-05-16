@@ -123,7 +123,7 @@ function autoInitializeSuccessCard() {
   // Extract data from structured_content.md
   const moduleData = {
     title: "Felicitări!",
-    message: "✨Ai finalizat Micro-Modulul 2 a sprintului de învățare IA! ✨<br><br>Împărtășește-ți ideile cu prietenii sau colegii tăi și discută despre cum IA îți poate îmbunătăți munca.",
+    message: "✨Ai finalizat Ziua 2 a programului de conștientizare IA! ✨<br><br>Aplicare practică: Încearcă una dintre strategiile învățate în următoarele 24 de ore și observă diferențele.",
     nextModule: "Ziua 3: \"Gestionarea datelor tale\""
   };
   

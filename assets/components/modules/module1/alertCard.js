@@ -130,7 +130,7 @@ function autoInitializeAlertCard() {
       "Căutare folosind cuvinte cheie: simpla potrivire de text, nu înțelegere semantică.",
       "Recomandări bazate pe reguli. \"dacă ai cumpărat X, îți arătăm Y\" folosind reguli simple, nu analiză comportamentală complexă.",
       "Sortări și filtrări simple: organizează după criterii predefinite, nu învață din preferințele tale.",
-      "Detectarea spam-ului cu liste de cuvinte: Blochează mesaje care conțin termeni specifici, nu analizează contextul."
+      "Detectarea spam-ului cu liste de cuvinte: blochează mesaje care conțin termeni specifici, nu analizează contextul."
     ]
   };
   

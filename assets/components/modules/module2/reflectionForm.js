@@ -54,7 +54,7 @@ function createReflectionForm(title, questions) {
   const dropdownLabel = document.createElement('label');
   dropdownLabel.htmlFor = 'question-selector';
   dropdownLabel.className = 'form-label';
-  dropdownLabel.textContent = 'Alocă 1 minut pentru a reflecta la una dintre aceste întrebări:';
+  dropdownLabel.textContent = 'Alege una dintre întrebările de mai jos și notează-ți rapid răspunsul:';
   
   const dropdown = document.createElement('select');
   dropdown.className = 'form-select mb-3';
@@ -221,9 +221,9 @@ function autoInitializeReflectionForm() {
   const moduleData = {
     title: "Reflecție rapidă",
     questions: [
-      "Cum ar putea bulele de filtrare să-ți afecteze procesul de luare a deciziilor la locul de muncă?",
-      "Ce te-a surprins cel mai mult în legătură cu exemplele de personalizare?",
-      "Care este o acțiune pe care o vei face pentru a obține informații mai diverse?"
+      "Cum ar putea bula de filtrare să îți afecteze deciziile profesionale într-o situație concretă din domeniul tău?",
+      "Ce exemplu specific de personalizare te-a surprins cel mai mult dintre cele menționate?",
+      "Care este prima acțiune concretă pe care o vei implementa pentru a-ți diversifica sursele de informare?"
     ]
   };
   

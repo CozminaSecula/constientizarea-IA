@@ -51,15 +51,15 @@ function createKeyPointsCard() {
   const keyPoints = [
     {
       term: 'Personalizarea',
-      description: 'nu este bună sau rea – este un instrument.'
+      description: 'nu este bună sau rea - este un instrument care poate fi util sau limitativ.'
     },
     {
       term: 'Conștientizarea',
-      description: 'este modul în care te poți apăra împotriva prejudecăților informaționale.'
+      description: 'este primul pas pentru a contracara prejudecățile informaționale.'
     },
     {
-      term: 'Perspectivele diverse',
-      description: 'conduc la decizii mai bune și la inovație.'
+      term: 'Diversitatea perspectivelor ',
+      description: 'duce la decizii mai bune și stimulează inovația.'
     }
   ];
   

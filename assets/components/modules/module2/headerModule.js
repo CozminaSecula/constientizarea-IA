@@ -71,7 +71,7 @@ function autoInitializeHeaderModule() {
   const moduleData = {
     title: 'Personalizarea & "Bula de Filtrare"',
     duration: "",
-    type: "Conștientizarea IA"
+    type: "Conștientizarea Inteligenței Artificiale (IA)"
   };
   
   // Initialize the header when the DOM is ready
