@@ -58,10 +58,33 @@ function createIntroduction(introText, objectiveTitle, objectiveText) {
   objectiveTitleWrapper.appendChild(objectiveIcon);
   objectiveTitleWrapper.appendChild(objectiveTitleElement);
   
-  // Create objective text
-  const objectiveTextElement = document.createElement('p');
-  objectiveTextElement.className = 'mb-0';
-  objectiveTextElement.textContent = objectiveText;
+  // Create objective text container with objectives
+  const objectiveTextElement = document.createElement('div');
+  objectiveTextElement.className = 'mb-3';
+  
+  // Add the objectives intro text
+  const objectivesIntro = document.createElement('p');
+  objectivesIntro.className = 'mb-2';
+  objectivesIntro.textContent = 'La finalul acestui modul vei putea:';
+  objectiveTextElement.appendChild(objectivesIntro);
+  
+  // Create and style the ordered list
+  const objectivesList = document.createElement('ol');
+  objectivesList.className = 'ms-4 mb-0'; // Add left margin and remove bottom margin
+  
+  // Parse objectives and create list items
+  const objectives = Array.isArray(objectiveText) ? objectiveText : objectiveText.split('\n');
+  objectives.forEach(objective => {
+    if (objective.trim()) {
+      const li = document.createElement('li');
+      li.className = 'mb-2';
+      li.textContent = objective.trim();
+      objectivesList.appendChild(li);
+    }
+  });
+  
+  // Add list to container
+  objectiveTextElement.appendChild(objectivesList);
   
   // Assemble objective block
   objectiveBlock.appendChild(objectiveTitleWrapper);
@@ -104,9 +127,13 @@ function autoInitializeIntroduction() {
   
   // Extract data from structured_content.md
   const moduleData = {
-    introText: "Te-ai întrebat vreodată de ce vezi același tip de conținut sau aceiași oameni pe Facebook? Sau poate aceleași persoane pe LinkedIn? Acesta este efectul algoritmilor; ei personalizează ceea ce vezi pe fiecare platformă, analizând activitatea ta anterioară.",
-    objectiveTitle: "Obiectivul de astăzi",
-    objectiveText: "Să înțelegem cum Inteligența Artificială (IA) modelează ceea ce vedem online prin personalizare și să învățăm să recunoaștem când ne aflăm într-o bulă de filtrare care ne limitează perspectiva."
+    introText: "Te-ai întrebat vreodată de ce vezi mereu același tip de conținut pe Facebook? Sau de ce întâlnești aceleași persoane în feed-ul tău de LinkedIn? Acest fenomen este rezultatul algoritmilor - programe informatice care analizează comportamentul tău online și personalizează ceea ce vezi pe fiecare platformă.",
+    objectiveTitle: "Obiectivele modulului",
+    objectiveText: [
+      "Înțelege cum inteligența artificială (IA) influențează conținutul pe care îl vezi online.",
+      "Recunoaște când te afli într-o \"bulă de filtrare\" care îți limitează perspectiva.",
+      "Aplica strategii simple pentru a obține informații mai diverse."
+    ] 
   };
   
   // Initialize the introduction when the DOM is ready

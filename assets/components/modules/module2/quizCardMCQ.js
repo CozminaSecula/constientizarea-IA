@@ -249,20 +249,20 @@ function autoInitializeQuizCard() {
     title: "Verificare rapidă: Ești într-o bulă de filtrare?",
     questions: [
       {
-        text: "Care dintre acestea este un semn că s-ar putea să te afli într-o bulă de filtrare? (Selectează toate variantele aplicabile)",
+        text: "Care dintre următoarele situații indică faptul că te-ai putea afla într-o bulă de filtrare? (Selectează toate variantele corecte)",
         type: "checkbox",
         options: [
-          "Vezi constant știri care se aliniază cu opiniile tale.",
-          "Întâlnești rar perspective care ți-ar contesta opiniile.",
+          "Vezi constant știri și articole care confirmă opiniile tale existente.",
+          "Rareori întâlnești perspective care îți contestă convingerile.",
           "Primești recomandări care nu au legătură cu interesele tale.",
-          "Rezultatele căutării tale diferă de cele ale altora, chiar pentru aceiași termeni."
+          "Rezultatele căutărilor tale diferă de cele ale colegilor, chiar pentru aceiași termeni."
         ],
         correctAnswers: [
-          "Vezi constant știri care se aliniază cu opiniile tale.",
-          "Întâlnești rar perspective care ți-ar contesta opiniile.",
-          "Rezultatele căutării tale diferă de cele ale altora, chiar pentru aceiași termeni."
+          "Vezi constant știri și articole care confirmă opiniile tale existente.",
+          "Rareori întâlnești perspective care îți contestă convingerile.",
+          "Rezultatele căutărilor tale diferă de cele ale colegilor, chiar pentru aceiași termeni."
         ],
-        explanation: "Este posibil să te afli într-o bulă de filtrare, atunci când vezi constant știri care se aliniază cu opiniile tale, întâlnești rar perspective care ți-ar contesta opiniile, rezultatele căutării tale diferă de cele ale altora, chiar pentru aceiași termeni. Acestea sunt semne că algoritmii de filtrare îți personalizează conținutul pentru a se potrivi cu preferințele tale."
+        explanation: "Este posibil să te afli într-o bulă de filtrare, atunci când vezi constant știri și articole care confirmă opiniile tale existente, întâlnești rar perspective care îți contestă convingerile, rezultatele căutărilor tale diferă de cele ale colegilor, chiar pentru aceiași termeni."
       }
     ]
   };

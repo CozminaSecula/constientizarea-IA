@@ -56,19 +56,19 @@ function createResourcesCard() {
   // Define resources from structured_content.md
   const resources = [
     {
-      title: 'Bula de filtrare',
+      title: 'Conceptul de bula de filtrare',
       url: 'https://en.wikipedia.org/wiki/Filter_bubble',
       type: 'wikipedia',
       language: 'EN'
     },
     {
-      title: 'Video explicativ',
+      title: 'Video explicativ despre bula de filtrare',
       url: 'https://www.youtube.com/watch?v=pT-k1kDIRnw&t=148s',
       type: 'video',
       language: 'EN'
     },
     {
-      title: 'Filtrarea bulelor și camerele de ecou',
+      title: 'Articol: Bulele de filtrare și camerele de ecou',
       url: 'https://www.fondationdescartes.org/en/2020/07/filter-bubbles-and-echo-chambers/',
       type: 'article',
       language: 'EN'
@@ -194,7 +194,7 @@ function createResourcesCard() {
           <li>Accesează <a href="https://translate.google.com/" target="_blank" rel="noopener noreferrer">Google Translate</a></li>
           <li>Copiază URL-ul resursei și lipește-l în câmpul de text</li>
           <li>Selectează "Română" ca limbă de destinație</li>
-          <li>Fă click pe linkul generat pentru a deschide site-ul tradus</li>
+          <li>Fă clic pe linkul generat pentru a deschide site-ul tradus</li>
         </ol>
         <p class="small text-muted">Perfect pentru articole și pagini web. Poate avea erori ocazionale de traducere, dar este rapid și accesibil.</p>
       `

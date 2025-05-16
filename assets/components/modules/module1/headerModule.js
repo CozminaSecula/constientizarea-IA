@@ -73,7 +73,7 @@ function autoInitializeHeaderModule() {
   const moduleData = {
     title: "Identificarea funcțiilor bazate pe inteligența artificială (IA)",
     duration: "",
-    type: "Conștientizarea IA"
+    type: "Conștientizarea Inteligenței Artificiale (IA)"
   };
   
   // Initialize the header when the DOM is ready

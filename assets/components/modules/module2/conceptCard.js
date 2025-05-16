@@ -171,7 +171,7 @@ function getOutsideBadgeColor(index) {
  */
 const conceptData = {
   conceptTitle: 'Bula de filtrare',
-  conceptText: 'Bula de filtrare este rezultatul algoritmilor personalizați care selectează conținutul pe care îl vezi online. Algoritmii încearcă să-ți arate doar ce cred că te interesează, creând astfel o "bulă" în jurul tău, care filtrează opiniile contrare sau informațiile diverse.',
+  conceptText: '"Bula de filtrare" reprezintă rezultatul algoritmilor personalizați care selectează conținutul online vizibil pentru tine. Acești algoritmi (serii de instrucțiuni automate) îți arată doar ce cred că te interesează, creând astfel o "bulă" care filtrează opinii contrare sau informații diverse.',
   insideItems: ['Știri similare', 'Opinii familiare', 'Persoane care gândesc ca tine'],
   outsideItems: ['Perspective diferite', 'Informații contradictorii', 'Opinii diverse'],
   conclusionText: 'Fiind conștient de existența bulelor de filtrare, poți lua măsuri pentru a-ți diversifica intenționat sursele de informare și pentru a căuta perspective diferite de ale tale.'

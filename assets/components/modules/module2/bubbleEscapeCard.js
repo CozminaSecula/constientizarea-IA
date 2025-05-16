@@ -22,7 +22,7 @@ function createBubbleEscapeCard() {
   
   // Create title
   const sectionTitle = document.createElement('h2');
-  sectionTitle.textContent = 'Îndepărtarea din bula ta';
+  sectionTitle.textContent = 'Strategii pentru a ieși din bula ta';
   sectionTitle.style.margin = '0';
   
   // Assemble title container
@@ -31,7 +31,7 @@ function createBubbleEscapeCard() {
   
   // Create description text
   const descriptionText = document.createElement('p');
-  descriptionText.textContent = 'Câteva strategii rapide pentru a obține informații mai diverse:';
+  descriptionText.textContent = 'Iată câteva metode simple pe care le poți aplica imediat:';
   descriptionText.className = 'mb-4';
   
   // Create main card
@@ -45,7 +45,7 @@ function createBubbleEscapeCard() {
   // Create quick ideas section
   const quickIdeasTitle = document.createElement('h3');
   quickIdeasTitle.className = 'h4 mb-3';
-  quickIdeasTitle.textContent = 'Idei de 30 de secunde';
+  quickIdeasTitle.textContent = 'Acțiuni rapide (sub 1 minut)';
   
   // Create ideas list
   const ideasList = document.createElement('ol');
@@ -54,24 +54,24 @@ function createBubbleEscapeCard() {
   // Ideas content
   const ideas = [
     {
-      text: 'Folosește navigarea privată atunci când cercetezi subiecte importante.',
-      bold: 'Folosește navigarea privată'
+      text: 'Folosește modul incognito/privat când cercetezi subiecte importante.',
+      bold: 'Folosește modul incognito/privat'
     },
     {
-      text: 'Urmărește surse diverse care îți provoacă punctele de vedere.',
-      bold: 'Urmărește surse diverse'
+      text: 'Urmărește conștient surse cu perspective diferite de ale tale.',
+      bold: 'Urmărește conștient surse cu perspective diferite'
     },
     {
-      text: 'Ajustează setările platformelor pentru a reduce personalizarea.',
+      text: 'Ajustează setările platformelor pentru a reduce personalizarea excesivă.',
       bold: 'Ajustează setările platformelor'
     },
     {
-      text: 'Încearcă motoare de căutare diferite pentru cercetarea importantă legată de muncă.',
-      bold: 'Încearcă motoare de căutare diferite'
+      text: 'Utilizează motoare de căutare alternative (DuckDuckGo) pentru cercetări importante.',
+      bold: 'Utilizează motoare de căutare alternative '
     },
     {
-      text: 'Fii conștient legat de ceea ce dai clic - fiecare clic îți modelează experiența viitoare.',
-      bold: 'Fii conștient legat de ceea ce dai clic'
+      text: 'Fii conștient/a de comportamentul tău online - fiecare clic influențează ce vei vedea în viitor.',
+      bold: 'Fii conștient/a de comportamentul tău online'
     }
   ];
   
@@ -105,15 +105,15 @@ function createBubbleEscapeCard() {
   const settings = [
     {
       platform: 'Google',
-      steps: 'Mergi la Google Privacy → Web & App Activity → Turn off'
+      steps: 'Mergi la Confidențialitate Google → Activitate web și în aplicații → Dezactivează'
     },
     {
       platform: 'LinkedIn',
-      steps: 'Profile → Settings → Account preferences → Feed preferences'
+      steps: 'Profil → Setări → Preferințe cont → Preferințe feed'
     },
     {
       platform: 'Facebook',
-      steps: 'Settings → News Feed Preferences → Prioritize who to see first'
+      steps: 'Setări → Preferințe News Feed → Prioritizează ce vezi primul'
     }
   ];
   
