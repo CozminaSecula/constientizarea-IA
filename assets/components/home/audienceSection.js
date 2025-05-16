@@ -7,23 +7,22 @@ document.addEventListener('DOMContentLoaded', function() {
   const audienceContainer = document.getElementById('audience-container');
 
   // Section content 
-  const sectionTitle = "Pentru cine este acest curs";
-  const sectionContent = `
-  Pe măsură ce inteligența artificială devine tot mai prezentă în viața noastră, 
-  este important să înțelegem cum funcționează, chiar și la un nivel de bază. 
-  Acest curs este pentru oricine dorește să învețe cum să folosească IA în mod practic, indiferent de nivelul tehnic.
+  const sectionTitle = "Cui se adresează?";
+  const sectionContent = ` 
+
   `;
 
   // Audience details for numbered columns
   const audienceGroups = [
-    "Pentru profesioniștii care utilizează instrumente digitale, dar nu sunt specialiști în IA.",
-    "Pentru profesioniștii care doresc să înțeleagă modul în care IA le afectează munca.",
-    "Pentru oricine este interesat să își dezvolte o alfabetizare de bază în IA fără o aprofundare tehnică."
+    "Profesioniștilor care folosesc aplicații digitale zilnic.",
+    "Persoanelor curioase despre impactul IA în viața cotidiană.",
+    "Celor care vor să facă alegeri mai informate legate de tehnologiile pe care le folosesc.",
+    "Oricine dorește să învețe cum să folosească IA în mod practic, indiferent de nivelul tehnic."
   ];
 
   // Create section HTML structure 
   const audienceSectionHTML = `
-    <div style="background-color: #F5F5F5; padding: 2rem 0;">
+    <div style="background-color: #F5F5F5; padding: 2rem 0; margin: 4rem 0;">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5">

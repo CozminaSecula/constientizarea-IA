@@ -22,7 +22,7 @@ function createResourcesCard() {
   
   // Create title
   const sectionTitle = document.createElement('h2');
-  sectionTitle.textContent = 'Resurse';
+  sectionTitle.textContent = 'Resurse utile';
   sectionTitle.style.margin = '0';
   
   // Assemble title container

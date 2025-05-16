@@ -13,34 +13,34 @@ document.addEventListener('DOMContentLoaded', function() {
   const courseStructure = [
     {
       day: "Ziua 1",
-      title: "Inteligența artificială (IA) la locul de muncă",
+      title: "Identificarea funcțiilor bazate pe IA",
       content: `
         <ol style="font-size: 1.1rem !important; line-height: 1.6 !important;">
-          <li>Află despre caracteristicile IA și cum sunt diferite de cele tradiționale.</li>
-          <li>Explorează exemple de instrumente IA utilizate în mediul de lucru.</li>
-          <li>Reflectează asupra modului în care IA îți influențează activitățile zilnice.</li>
+          <li>Recunoaște când o aplicație folosește IA vs. programare tradițională.</li>
+          <li>Descoperă funcțiile IA ascunse în aplicațiile tale zilnice.</li>
+          <li>Exerciții practice: Identifică și testează funcții IA în propriile aplicații.</li>
         </ol>
       `
     },
     {
       day: "Ziua 2",
-      title: " Personalizarea & Bule de Filtrare",
+      title: " Personalizarea & Bula de Filtrare",
       content: `
         <ol style="font-size: 1.1rem !important; line-height: 1.6 !important;">
-          <li>Află cum IA personalizează fluxurile de lucru și rezultatele căutării.</li>
-          <li>Explorează conceptul de "bule de filtrare" și cum afectează informațiile pe care le primești.</li>
-          <li>Reflectează asupra modului în care personalizarea IA îți influențează deciziile.</li>
+          <li>Înțelege cum algoritmii IA îți personalizează conținutul online.</li>
+          <li>Recunoaște când te afli într-o "bulă de filtrare" care limitează perspectiva.</li>
+          <li>Strategii practice pentru a obține informații mai diverse și echilibrate.</li>
         </ol>
       `
     },
     {
       day: "Ziua 3",
-      title: "Gestionarea datelor tale",
+      title: "Gestionarea datelor personale",
       content: `
         <ol style="font-size: 1.1rem !important; line-height: 1.6 !important;">
-          <li>Află despre tipurile de date personale pe care IA le colectează.</li>
-          <li>Explorează cum să îți protejezi datele în mediul digital.</li>
-          <li>Reflectează asupra modului în care gestionarea datelor îți influențează viața de zi cu zi.</li>
+          <li>Înțelege ce date colectează aplicațiile bazate pe IA.</li>
+          <li>Configurarea setărilor de confidențialitate pentru protecție optimă.</li>
+          <li>Exerciții practice: Auditează și ajustează permisiunile aplicațiilor tale.</li>
         </ol>
       `
     },
@@ -49,20 +49,20 @@ document.addEventListener('DOMContentLoaded', function() {
       title: "Luarea deciziilor folosind IA",
       content: `
         <ol style="font-size: 1.1rem !important; line-height: 1.6 !important;">
-          <li>Află cum IA poate sprijini procesul decizional.</li>
-          <li>Explorează exemple de utilizare a IA în luarea deciziilor.</li>
-          <li>Reflectează asupra modului în care IA îți influențează deciziile.</li>
+          <li>Cum influențează recomandările IA alegerile tale zilnice.</li>
+          <li>Când să te bazezi pe sugestiile IA și când să le chestionezi.</li>
+          <li>Exerciții pentru dezvoltarea gândirii critice în raport cu recomandările algoritmice.</li>
         </ol>
       `
     },
     {
       day: "Ziua 5",
-      title: "Utilizarea IA la locul de muncă",
+      title: "Automatizarea și productivitatea",
       content: `
         <ol style="font-size: 1.1rem !important; line-height: 1.6 !important;">
-          <li>Află despre instrumentele IA disponibile pentru profesioniști.</li>
-          <li>Explorează cum să integrezi IA în fluxurile tale de lucru.</li>
-          <li>Reflectează asupra modului în care IA îți influențează munca.</li>
+          <li>Identifică sarcinile potrivite pentru automatizare cu IA.</li>
+          <li>Tehnici pentru a-ți crește productivitatea folosind IA.</li>
+          <li>Exerciții practice: Creează un flux de lucru optimizat cu asistență IA.</li>
         </ol>
       `
     }

@@ -246,7 +246,7 @@ function initQuizCard(elementId, title, questions) {
 function autoInitializeQuizCard() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Verificare rapidă: Recunoaște IA",
+    title: "Recunoaște IA",
     questions: [
       {
         text: "Care dintre aceste funcții folosește IA?",

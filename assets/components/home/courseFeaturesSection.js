@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const featuresHTML = features.map(feature => `
     <div class="col-md-6 mb-4">
       <div class="feature-item d-flex align-items-start">
-        <div class="feature-icon me-3 mt-1 text-primary">
+        <div class="feature-icon me-3 mt-1" style="color: var(--black);">
           <i class="${feature.icon}" style="font-size: 1.4rem;"></i>
         </div>
         <div class="feature-content">

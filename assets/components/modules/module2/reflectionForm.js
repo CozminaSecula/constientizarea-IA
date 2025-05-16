@@ -54,7 +54,7 @@ function createReflectionForm(title, questions) {
   const dropdownLabel = document.createElement('label');
   dropdownLabel.htmlFor = 'question-selector';
   dropdownLabel.className = 'form-label';
-  dropdownLabel.textContent = 'Alege una dintre întrebările de mai jos și notează-ți rapid răspunsul:';
+  dropdownLabel.textContent = 'Răspunde pentru tine la una dintre întrebările următoare:';
   
   const dropdown = document.createElement('select');
   dropdown.className = 'form-select mb-3';
@@ -88,7 +88,7 @@ function createReflectionForm(title, questions) {
   textarea.className = 'form-control';
   textarea.id = 'reflection-text';
   textarea.rows = 4;
-  textarea.placeholder = 'Scrie-ți gândurile aici...';
+  textarea.placeholder = 'Scrie-ți gândurile aici... nu le salvăm nicăieri, folosește spațiul pentru a-ți organiza ideile.';
   
   // Create submit button
   const submitButton = document.createElement('button');
@@ -219,7 +219,7 @@ function initReflectionForm(elementId, title, questions) {
 function autoInitializeReflectionForm() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Reflecție rapidă",
+    title: "Reflecție",
     questions: [
       "Cum ar putea bula de filtrare să îți afecteze deciziile profesionale într-o situație concretă din domeniul tău?",
       "Ce exemplu specific de personalizare te-a surprins cel mai mult dintre cele menționate?",
