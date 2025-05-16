@@ -246,7 +246,7 @@ function initQuizCard(elementId, title, questions) {
 function autoInitializeQuizCard() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Verificare rapidă: Ești într-o bulă de filtrare?",
+    title: "Ești într-o bulă de filtrare?",
     questions: [
       {
         text: "Care dintre următoarele situații indică faptul că te-ai putea afla într-o bulă de filtrare? (Selectează toate variantele corecte)",

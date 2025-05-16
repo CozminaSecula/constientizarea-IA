@@ -17,7 +17,7 @@ website:
         href: index.qmd
       - text: "Micro-Module"
         menu:
-          - text: "Ziua 1: Inteligența artificială (IA) la locul de muncă"
+          - text: "Ziua 1: Identificarea funcțiilor bazate pe IA"
             href: modules/module1.qmd
           - text: "Ziua 2: Personalizarea & Bule de Filtrare"
             href: modules/module2.qmd

@@ -236,20 +236,21 @@ function autoInitializeActivityCard() {
     activities: [
       {
         id: "option-a",
-        title: "Pentru utilizatorii instrumentelor cu funcții IA:",
+        title: "Pentru toți utilizatorii:",
         steps: [
-          "Identifică 3 aplicații pe care le-ai folosit astăzi.",
-          "Pentru fiecare, găsește o funcție care ar putea folosi IA (conform caracteristicilor învățate).",
-          "Notează cum te ajută sau te împiedică această funcție în activitatea ta zilnică."
+          "Verifică cele mai folosite 3 aplicații din ultima săptămână.",
+          "Pentru fiecare, identifică cel puțin o funcție care ar putea folosi IA (conform caracteristicilor prezentate).",
+          "Notează cum te ajută această funcție.",
+          "Poți controla comportamentul ei? Cum?"
         ],
         bonus: null
       },
       {
         id: "option-b",
-        title: "Pentru cei fără acces la astfel de instrumente:",
+        title: "Alternativă pentru cei care nu identifică funcții IA în aplicațiile lor:",
         steps: [
-          "Din lista de exemple prezentate, alege 3 funcționalități care ți-ar fi cele mai utile.",
-          "Descrie concret cum ți-ar îmbunătăți fluxul de lucru.",
+          "Din exemplele prezentate, selectează 3 funcționalități care ți-ar fi cele mai utile.",
+          "Descrie cum ți-ar îmbunătăți concret activitatea zilnică.",
           "Ce task repetat zilnic ai putea automatiza cu ajutorul IA?"
         ],
         bonus: null

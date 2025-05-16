@@ -49,17 +49,21 @@ page-layout: full
 
 <main>
   <div id="header-hero-container"></div>
+  <div id="what-container"></div>
   <div id="audience-container"></div>
-  <div id="daily-content-container"></div>
   <div id="course-features-container"></div>
   <div id="course-structure-container"></div>
+  <div id="how-container"></div>
+  <div id="results-container"></div>
   <div id="cta-container"></div>
 </main>
 
 <!-- Scripts placed at the end of the QMD file content -->
 <script type="module" src="./assets/components/home/headerHero.js"></script>
+<script type="module" src="./assets/components/home/whatSection.js"></script>
 <script type="module" src="./assets/components/home/audienceSection.js"></script>
-<script type="module" src="./assets/components/home/dailyContentSection.js"></script>
 <script type="module" src="./assets/components/home/courseFeaturesSection.js"></script>
 <script type="module" src="./assets/components/home/courseStructureSection.js"></script>
+<script type="module" src="./assets/components/home/howSection.js"></script>
+<script type="module" src="./assets/components/home/resultsSection.js"></script>
 <script type="module" src="./assets/components/home/ctaSection.js"></script>

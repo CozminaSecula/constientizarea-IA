@@ -10,27 +10,27 @@ document.addEventListener('DOMContentLoaded', function() {
   const sectionTitle = "Ce vei învăța în 5 zile";
   const dailyContent = [
     {
-      day: "Ziua 1:",
+      day: "Modulul 1:",
       title: "Cum interacționezi cu IA în timpul unei zile de lucru",
       description: ""
     },
     {
-      day: "Ziua 2:",
+      day: "Modulul 2:",
       title: "Cum personalizează IA fluxurile, rezultatele căutării și recomandările",
       description: ""
     },
     {
-      day: "Ziua 3:",
+      day: "Modulul 3:",
       title: "Gestionarea eficientă a datelor tale",
       description: ""
     },
     {
-      day: "Ziua 4:",
+      day: "Modulul 4:",
       title: "Folosirea IA în luarea deciziilor",
       description: ""
     },
     {
-      day: "Ziua 5:",
+      day: "Modulul 5:",
       title: "Utilizarea IA la locul de muncă",
       description: ""
     }

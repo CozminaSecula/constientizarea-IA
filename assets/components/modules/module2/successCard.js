@@ -66,7 +66,7 @@ function createSuccessCard(title, message, nextModule) {
   // Add arrow icon
   const arrowIcon = document.createElement('i');
   arrowIcon.className = 'bi bi-arrow-right-circle me-2';
-  arrowIcon.style.color = '#1696D2'; // cyan-60
+  arrowIcon.style.color = '#000000'; // black
   
   // Add next module text
   const nextModuleText = document.createElement('span');

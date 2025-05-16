@@ -54,7 +54,7 @@ function createReflectionForm(title, questions) {
   const dropdownLabel = document.createElement('label');
   dropdownLabel.htmlFor = 'question-selector';
   dropdownLabel.className = 'form-label';
-  dropdownLabel.textContent = 'Alege o întrebare la care să răspunzi:';
+  dropdownLabel.textContent = 'Răspunde pentru tine la una dintre întrebările următoare:';
   
   const dropdown = document.createElement('select');
   dropdown.className = 'form-select mb-3';
@@ -88,7 +88,7 @@ function createReflectionForm(title, questions) {
   textarea.className = 'form-control';
   textarea.id = 'reflection-text';
   textarea.rows = 4;
-  textarea.placeholder = 'Scrie-ți gândurile aici...nu le salvăm nicăieri, folosești spațiul doar pentru a reflecta.';
+  textarea.placeholder = 'Scrie-ți gândurile aici... nu le salvăm nicăieri, folosește spațiul pentru a-ți organiza ideile.';
   
   // Create submit button
   const submitButton = document.createElement('button');
@@ -219,7 +219,7 @@ function initReflectionForm(elementId, title, questions) {
 function autoInitializeReflectionForm() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Reflecție finală",
+    title: "Reflecție",
     questions: [
       "Dacă folosești deja funcții IA: Ce aspect al acestora te-a surprins cel mai mult în urma acestui modul?",
       "Dacă nu folosești încă: Ce funcționalitate bazată pe IA ți se pare cea mai promițătoare pentru nevoile tale și de ce?",
