@@ -219,11 +219,11 @@ function initReflectionForm(elementId, title, questions) {
 function autoInitializeReflectionForm() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Reflecție rapidă",
+    title: "Reflecție finală",
     questions: [
-      "Dacă folosești funcții IA: Ce te-a surprins cel mai mult legat de unde apar acestea în activitățile tale?",
-      "Dacă nu folosești încă funcții IA: Ce funcție te-ar interesa cel mai mult să încerci și de ce?",
-      "Pentru toată lumea: Ce preocupări sau întrebări ai despre instrumentele IA la locul de muncă?"
+      "Dacă folosești deja funcții IA: Ce aspect al acestora te-a surprins cel mai mult în urma acestui modul?",
+      "Dacă nu folosești încă: Ce funcționalitate bazată pe IA ți se pare cea mai promițătoare pentru nevoile tale și de ce?",
+      "Pentru toți: Ce preocupări sau întrebări ai în legătură cu integrarea IA în fluxul tău de lucru?"
     ]
   };
   

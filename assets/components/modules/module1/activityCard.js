@@ -232,23 +232,25 @@ function initActivityCard(elementId, title, activities) {
 function autoInitializeActivityCard() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Încearcă: Activitate de 2 minute",
+    title: "Activitate practică: 2 minute",
     activities: [
       {
         id: "option-a",
-        title: "Opțiunea A: Dacă ai aceste instrumente",
+        title: "Pentru utilizatorii instrumentelor cu funcții IA:",
         steps: [
-          "Alege 3 instrumente pe care le-ai folosit astăzi și încearcă să identifici o funcție IA în fiecare.",
-          "Notează cum te ajută (sau te încurcă) în activitatea ta."
+          "Identifică 3 aplicații pe care le-ai folosit astăzi.",
+          "Pentru fiecare, găsește o funcție care ar putea folosi IA (conform caracteristicilor învățate).",
+          "Notează cum te ajută sau te împiedică această funcție în activitatea ta zilnică."
         ],
         bonus: null
       },
       {
         id: "option-b",
-        title: "Opțiunea B: Dacă nu ai aceste instrumente",
+        title: "Pentru cei fără acces la astfel de instrumente:",
         steps: [
-          "Alege 3 funcții din exemplele noastre care ar fi cele mai utile în munca ta.",
-          "Notează cum ți-ar putea schimba fluxul de lucru dacă le-ai avea."
+          "Din lista de exemple prezentate, alege 3 funcționalități care ți-ar fi cele mai utile.",
+          "Descrie concret cum ți-ar îmbunătăți fluxul de lucru.",
+          "Ce task repetat zilnic ai putea automatiza cu ajutorul IA?"
         ],
         bonus: null
       }

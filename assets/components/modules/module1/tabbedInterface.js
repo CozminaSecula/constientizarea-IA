@@ -201,9 +201,9 @@ function autoInitializeTabbedInterface() {
         title: "Microsoft 365",
         logo: "https://img.icons8.com/color/48/000000/microsoft-office-2019.png",
         items: [
-          "Sugestiile de scriere ale Editorului: Recomandări de îmbunătățire a stilului și clarității textului.",
-          "Ideile de design din PowerPoint: Sugestii automate pentru layout-uri și stiluri vizuale atractive.",
-          "Recunoașterea tiparelor în Excel: Identificarea și completarea automată a seriilor de date."
+          "Editorul inteligent: Analizează textul și sugerează îmbunătățiri de stil, ton și claritate.",
+          "Designer PowerPoint: Propune automat layout-uri profesionale adaptate conținutului tău.",
+          "Funcții de analiză Excel: Identifică tipare în date și completează automat serii complexe."
         ]
       },
       {
@@ -211,9 +211,9 @@ function autoInitializeTabbedInterface() {
         title: "Google Workspace",
         logo: "https://img.icons8.com/color/48/000000/google-workspace.png",
         items: [
-          "Smart Compose în Gmail: Completarea automată a frazelor în timp ce scrii emailuri.",
-          "Transcriere automată a întâlnirilor în Meet: Conversia audio în text pentru ședințele online.",
-          "Sugestii Smart Reply: Răspunsuri rapide personalizate generate automat pentru emailuri."
+          "Smart Compose în Gmail: Completează propoziții întregi în timp ce redactezi emailuri.",
+          "Transcrierea Meet: Convertește automat discuțiile din întâlniri în text.",
+          "Smart Reply: Generează răspunsuri scurte personalizate pentru emailurile primite."
         ]
       },
       {
@@ -221,9 +221,9 @@ function autoInitializeTabbedInterface() {
         title: "Slack/Teams",
         logo: "https://img.icons8.com/color/48/000000/slack-new.png",
         items: [
-          "Notificări prioritare: Filtrarea inteligentă a mesajelor importante care necesită atenția ta.",
-          "Răspunsuri sugerate: Propuneri de răspunsuri rapide bazate pe context.",
-          "Înțelegerea căutării: Rezultate relevante chiar și pentru întrebări formulate în limbaj natural."
+          "Filtrare inteligentă a notificărilor: Evidențiază mesajele importante și reduce zgomotul.",
+          "Răspunsuri sugerate: Propune formulări adecvate contextului conversației.",
+          "Căutare semantică: Găsește informații relevante chiar dacă nu folosești termenii exacți."
         ]
       }
     ]
