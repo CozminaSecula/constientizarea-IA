@@ -21,11 +21,11 @@ website:
             href: modules/module1.qmd
           - text: "Ziua 2: Personalizarea & Bule de Filtrare"
             href: modules/module2.qmd
-          - text: "Ziua 3: Gestionarea datelor tale"
+          - text: "Ziua 3: Gestionarea datelor personale"
             href: 3_day.qmd
           - text: "Ziua 4: Luarea deciziilor folosind IA"
             href: 4_day.qmd
-          - text: "Ziua 5: Utilizarea IA la locul de muncă"
+          - text: "Ziua 5: Automatizarea și productivitatea"
             href: 5_day.qmd
 
 format:
