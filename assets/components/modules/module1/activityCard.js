@@ -232,7 +232,7 @@ function initActivityCard(elementId, title, activities) {
 function autoInitializeActivityCard() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Activitate practică: 2 minute",
+    title: "Activitate practică",
     activities: [
       {
         id: "option-a",

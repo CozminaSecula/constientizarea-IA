@@ -45,8 +45,8 @@ function createBubbleEscapeCard() {
   // Create quick ideas section
   const quickIdeasTitle = document.createElement('h3');
   quickIdeasTitle.className = 'h4 mb-3';
-  quickIdeasTitle.textContent = 'Acțiuni rapide (sub 1 minut)';
-  
+  quickIdeasTitle.textContent = 'Idei';
+
   // Create ideas list
   const ideasList = document.createElement('ol');
   ideasList.className = 'list-group list-group-numbered mb-4';
@@ -94,7 +94,7 @@ function createBubbleEscapeCard() {
   // Create settings guide section
   const settingsTitle = document.createElement('h3');
   settingsTitle.className = 'h4 mb-3';
-  settingsTitle.textContent = 'Ghid de setări rapide';
+  settingsTitle.textContent = 'Ghid de setări';
   
   // Create accordion for settings
   const accordion = document.createElement('div');

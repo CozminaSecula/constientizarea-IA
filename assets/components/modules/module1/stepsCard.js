@@ -130,7 +130,7 @@ function initStepsCard(elementId, title, sections) {
 function autoInitializeStepsCard() {
   // Extract data from structured_content.md
   const moduleData = {
-    title: "Exercițiu de conștientizare IA: 30 de secunde",
+    title: "Exercițiu de conștientizare IA",
     sections: [
       {
         title: "Pentru utilizatorii instrumentelor cu IA:",
@@ -140,7 +140,7 @@ function autoInitializeStepsCard() {
           "Identifică un element care oferă sugestii personalizate sau automatizează o decizie.",
           "Întreabă-te: Această funcție mă ajută cu adevărat sau doar complică lucrurile?"
         ],
-        bonus: "Găsește în setările aplicației unde poți personaliza comportamentul acestei funcții."
+        bonus: "Verifică în setările aplicației unde poți personaliza comportamentul acestei funcții."
       },
       {
         title: "Pentru cei fără acces curent la instrumente IA:",
