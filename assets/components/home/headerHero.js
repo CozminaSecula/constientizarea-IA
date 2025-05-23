@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const headerHeroContainer = document.getElementById('header-hero-container');
 
   // Create course title and description content from course-page.md
-  const courseTitleText = "Conștientizarea Inteligenței Artificiale:";
+  const courseTitleText = "Conștientizarea Inteligenței Artificiale";
   const courseSubtitleText = "Cum îți influențează inteligența artificială viața de zi cu zi";
   
   // Split the description into three logical parts
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
           <div class="col-md-10 mx-auto text-center">
             <h1 class="display-3 fw-bold mb-3">
-              <span style="color:  #FDBF11;">${courseTitleText}</span>
+              <span style="color:  #FDBF11;">${courseTitleText}</span><br>
               <span class="text-white">${courseSubtitleText}</span>
             </h1>
             

@@ -17,7 +17,7 @@ function createActivityCard(title, activities) {
   const titleIcon = document.createElement('i');
   titleIcon.className = 'bi bi-stopwatch me-2';
   titleIcon.style.fontSize = '1.5rem';
-  titleIcon.style.color = ' #FDBF11'; // yellow-60
+  titleIcon.style.color = ' #000000'; // black
   titleIcon.style.display = 'flex';
   titleIcon.style.alignItems = 'center';
   titleIcon.style.marginTop = '-2px';
@@ -238,7 +238,7 @@ function autoInitializeActivityCard() {
         id: "option-a",
         title: "Pentru toți utilizatorii:",
         steps: [
-          "Verifică cele mai folosite 3 aplicații din ultima săptămână.",
+          "Verifică 3 dintre aplicațiile cele mai folosite din ultima săptămână.",
           "Pentru fiecare, identifică cel puțin o funcție care ar putea folosi IA (conform caracteristicilor prezentate).",
           "Notează cum te ajută această funcție.",
           "Poți controla comportamentul ei? Cum?"
@@ -249,9 +249,9 @@ function autoInitializeActivityCard() {
         id: "option-b",
         title: "Alternativă pentru cei care nu identifică funcții IA în aplicațiile lor:",
         steps: [
-          "Din exemplele prezentate, selectează 3 funcționalități care ți-ar fi cele mai utile.",
+          "Din exemplele prezentate, selectează 3 funcții care ți-ar fi cele mai utile.",
           "Descrie cum ți-ar îmbunătăți concret activitatea zilnică.",
-          "Ce task repetat zilnic ai putea automatiza cu ajutorul IA?"
+          "Ce sarcină repetată zilnic ai putea să automatizezi cu ajutorul IA?"
         ],
         bonus: null
       }

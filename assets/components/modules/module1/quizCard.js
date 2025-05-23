@@ -17,7 +17,7 @@ function createQuizCard(title, questions) {
   const titleIcon = document.createElement('i');
   titleIcon.className = 'bi bi-question-circle me-2';
   titleIcon.style.fontSize = '1.5rem';
-  titleIcon.style.color = ' #FDBF11'; // yellow-60
+  titleIcon.style.color = ' #000000'; // black
   titleIcon.style.display = 'flex';
   titleIcon.style.alignItems = 'center';
   titleIcon.style.marginTop = '-2px';
@@ -261,7 +261,7 @@ function autoInitializeQuizCard() {
         explanation: "Filtrele de spam folosesc IA pentru a învăța și a se adapta în timp la noi tipuri de spam."
       },
       {
-        text: "Ce caracteristici definesc o funcționalitate bazată pe IA? (Selectează toate variantele corecte)",
+        text: "Ce caracteristici definesc o funcție bazată pe IA? (Selectează toate variantele corecte)",
         type: "checkbox",
         options: [
           "Învață și se adaptează în timp.",

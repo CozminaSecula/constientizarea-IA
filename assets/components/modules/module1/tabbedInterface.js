@@ -18,7 +18,7 @@ function createTabbedInterface(title, description, tabs) {
   const titleIcon = document.createElement('i');
   titleIcon.className = 'bi bi-grid-3x3-gap me-2';
   titleIcon.style.fontSize = '1.5rem';
-  titleIcon.style.color = ' #FDBF11'; // yellow-60
+  titleIcon.style.color = ' #000000'; // black
   titleIcon.style.display = 'flex'; // Ensure icon is displayed as flex
   titleIcon.style.alignItems = 'center'; // Center align vertically
   titleIcon.style.justifyContent = 'center'; // Center align horizontally

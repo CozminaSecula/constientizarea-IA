@@ -28,7 +28,7 @@ function createCardDeck(title, description, categories) {
   const titleIcon = document.createElement('i');
   titleIcon.className = 'bi bi-grid-3x3-gap me-2';
   titleIcon.style.fontSize = '1.5rem';
-  titleIcon.style.color = ' #FDBF11'; // yellow-60
+  titleIcon.style.color = ' #000000'; // black
   titleIcon.style.display = 'flex';
   titleIcon.style.alignItems = 'center';
   titleIcon.style.justifyContent = 'center';
@@ -153,9 +153,9 @@ const filterBubbleData = {
       icon: 'bi bi-share',
       headerBgColor: '#CFE8F3', // Add custom background color
       points: [
-        'Feed-ul tău afișează tot mai multe articole similare cu cele pe care ai dat clic anterior.',
+        'Fluxul tău de știri afișează tot mai multe articole similare cu cele pe care ai dat clic anterior.',
         'Observi că vezi tot mai puține opinii diferite de ale tale.',
-        'Conținutul de la aceiași creatori apare frecvent în partea de sus a feed-ului.'
+        'Conținutul de la aceiași creatori apare frecvent în partea de sus a fluxului tău de știri.'
       ]
     },
     {

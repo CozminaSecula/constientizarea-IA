@@ -17,7 +17,7 @@ function createQuizCard(title, questions) {
   const titleIcon = document.createElement('i');
   titleIcon.className = 'bi bi-question-circle me-2';
   titleIcon.style.fontSize = '1.5rem';
-  titleIcon.style.color = ' #FDBF11'; // yellow-60
+  titleIcon.style.color = ' #000000'; // black
   titleIcon.style.display = 'flex';
   titleIcon.style.alignItems = 'center';
   titleIcon.style.marginTop = '-2px';

@@ -17,7 +17,7 @@ function createReflectionForm(title, questions) {
   const titleIcon = document.createElement('i');
   titleIcon.className = 'bi bi-journal-text me-2';
   titleIcon.style.fontSize = '1.5rem';
-  titleIcon.style.color = ' #FDBF11'; // yellow-60
+  titleIcon.style.color = ' #000000'; // black
   titleIcon.style.display = 'flex';
   titleIcon.style.alignItems = 'center';
   titleIcon.style.marginTop = '-2px';
@@ -221,7 +221,7 @@ function autoInitializeReflectionForm() {
   const moduleData = {
     title: "Reflecție",
     questions: [
-      "Cum ar putea bula de filtrare să îți afecteze deciziile profesionale într-o situație concretă din domeniul tău?",
+      "Cum ar putea bula de filtrare să îți afecteze deciziile profesionale sau personale într-o situație concretă?",
       "Ce exemplu specific de personalizare te-a surprins cel mai mult dintre cele menționate?",
       "Care este prima acțiune concretă pe care o vei implementa pentru a-ți diversifica sursele de informare?"
     ]

@@ -18,7 +18,7 @@ function createAlertCard(title, description, items) {
   const titleIcon = document.createElement('i');
   titleIcon.className = 'bi bi-exclamation-triangle me-2';
   titleIcon.style.fontSize = '1.5rem';
-  titleIcon.style.color = ' #FDBF11'; // yellow-60
+  titleIcon.style.color = ' #000000'; // black
   titleIcon.style.display = 'flex';
   titleIcon.style.alignItems = 'center';
   titleIcon.style.marginTop = '-2px';
@@ -37,8 +37,8 @@ function createAlertCard(title, description, items) {
   alertElement.className = 'alert alert-danger';
   alertElement.style.backgroundColor = ' #ECECEC'; // grey--light-90
   alertElement.style.borderColor = ' #ECECEC'; // grey--light-90
-  alertElement.style.color = ' #000000'; // body-color
-  
+  alertElement.style.color = ' #343a40'; // body-color
+
   // Create alert header
   const alertHeader = document.createElement('div');
   alertHeader.className = 'd-flex align-items-center mb-3';
@@ -50,8 +50,9 @@ function createAlertCard(title, description, items) {
   alertIcon.style.color = ' #000000'; // black
 
   // Add description text
-  const descriptionText = document.createElement('h4');
+  const descriptionText = document.createElement('h3');
   descriptionText.className = 'mb-0 fw-bold';
+  descriptionText.style.fontSize = '1.25rem';
   descriptionText.textContent = description;
   
   // Assemble alert header
@@ -71,6 +72,8 @@ function createAlertCard(title, description, items) {
     const listItem = document.createElement('li');
     listItem.className = 'mb-2 d-flex align-items-center';
     listItem.style.backgroundColor = 'transparent';
+
+  
     
     // Create bullet point with icon
     const bulletIcon = document.createElement('i');
@@ -82,6 +85,8 @@ function createAlertCard(title, description, items) {
     // Create text element
     const itemText = document.createElement('span');
     itemText.textContent = item;
+    itemText.innerHTML = `<strong>${item.split(':')[0]}:</strong> ${item.split(':')[1] || ''}`;
+
     
     // Assemble list item
     listItem.appendChild(bulletIcon);
@@ -128,7 +133,7 @@ function autoInitializeAlertCard() {
     items: [
       "Filtre foto predefinite: multe aplicații au filtre fixe, nu generative.",
       "Căutare folosind cuvinte cheie: simpla potrivire de text, nu înțelegere semantică.",
-      "Recomandări bazate pe reguli. \"dacă ai cumpărat X, îți arătăm Y\" folosind reguli simple, nu analiză comportamentală complexă.",
+      "Recomandări bazate pe reguli: \"dacă ai cumpărat X, îți arătăm Y\" folosind reguli simple, nu analiză comportamentală complexă.",
       "Sortări și filtrări simple: organizează după criterii predefinite, nu învață din preferințele tale.",
       "Detectarea spam-ului cu liste de cuvinte: blochează mesaje care conțin termeni specifici, nu analizează contextul."
     ]
