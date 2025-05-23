@@ -19,7 +19,7 @@ website:
         menu:
           - text: "Ziua 1: Identificarea funcțiilor bazate pe IA"
             href: modules/module1.qmd
-          - text: "Ziua 2: Personalizarea & Bule de Filtrare"
+          - text: "Ziua 2: Personalizarea & Bula de Filtrare"
             href: modules/module2.qmd
           - text: "Ziua 3: Gestionarea datelor personale"
             href: 3_day.qmd

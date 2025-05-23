@@ -15,7 +15,7 @@ function createBubbleEscapeCard() {
   const titleIcon = document.createElement('i');
   titleIcon.className = 'bi bi-filter-circle me-2';
   titleIcon.style.fontSize = '1.5rem';
-  titleIcon.style.color = ' #FDBF11'; // yellow-60
+  titleIcon.style.color = ' #000000'; // black
   titleIcon.style.display = 'flex';
   titleIcon.style.alignItems = 'center';
   titleIcon.style.marginTop = '-2px';
@@ -66,12 +66,12 @@ function createBubbleEscapeCard() {
       bold: 'Ajustează setările platformelor'
     },
     {
-      text: 'Utilizează motoare de căutare alternative (DuckDuckGo) pentru cercetări importante.',
+      text: 'Utilizează motoare de căutare alternative (ex. DuckDuckGo) pentru cercetări importante.',
       bold: 'Utilizează motoare de căutare alternative '
     },
     {
-      text: 'Fii conștient/a de comportamentul tău online - fiecare clic influențează ce vei vedea în viitor.',
-      bold: 'Fii conștient/a de comportamentul tău online'
+      text: 'Fii conștient/ă de comportamentul tău online - fiecare clic influențează ce vei vedea în viitor.',
+      bold: 'Fii conștient/ă de comportamentul tău online'
     }
   ];
   

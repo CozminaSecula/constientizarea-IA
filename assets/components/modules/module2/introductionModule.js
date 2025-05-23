@@ -13,7 +13,7 @@ function createIntroduction(introText, objectiveTitle, objectiveText) {
   // Create card header with accent
   const cardHeader = document.createElement('div');
   cardHeader.className = 'card-header d-flex align-items-center';
-  cardHeader.style.borderLeft = 'solid 3px #FDBF11'; // yellow-60 accent
+  cardHeader.style.borderLeft = 'solid 3px #000000'; // black accent
 
   // Add icon to header
   const headerIcon = document.createElement('i');
